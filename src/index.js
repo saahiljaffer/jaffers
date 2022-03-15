@@ -32,5 +32,5 @@ ics.createEvents(myEventsList, (error, value) => {
     return;
   }
 
-  writeFileSync(`${__dirname}/../public/event.ics`, value);
+  writeFileSync(`${__dirname}/event.ics`, value);
 });

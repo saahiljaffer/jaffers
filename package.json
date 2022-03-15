@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "node src/index.js",
+    "start": "eleventy --serve",
+    "build": "node src/index.js && eleventy",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -13,5 +14,8 @@
   "dependencies": {
     "ics": "^2.35.0",
     "moment-hijri": "https://github.com/saahiljaffer/moment-hijri"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.0"
   }
 }
