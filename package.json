@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "eleventy --serve",
-    "build": "node src/index.js && eleventy",
+    "start": "eleventy --serve & npx tailwindcss -i src/css/tailwind.css -o public/style.css --watch",
+    "build": "yarn build:events && eleventy && yarn build:tailwind",
+    "build:tailwind": "tailwindcss -i src/css/tailwind.css -o public/style.css --minify",
+    "build:events": "node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -16,6 +18,8 @@
     "moment-hijri": "https://github.com/saahiljaffer/moment-hijri"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.0"
+    "@11ty/eleventy": "^1.0.0",
+    "alpinejs": "^3.9.1",
+    "tailwindcss": "^3.0.23"
   }
 }
