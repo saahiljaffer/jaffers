@@ -1,0 +1,191 @@
+[
+  {
+    "title": "Ashura",
+    "date": "1/10"
+  },
+  {
+    "title": "10th of Imam Husayn (a)",
+    "date": "1/20"
+  },
+  {
+    "title": "Shahadat of Imam Zayn al-Abidin (a)",
+    "date": "1/25"
+  },
+  {
+    "title": "20th of Imam Husayn (a)",
+    "date": "1/29"
+  },
+  {
+    "title": "Shahadat of Imam Hasan (a)",
+    "date": "2/7"
+  },
+  {
+    "title": "30th of Imam Husayn (a)",
+    "date": "2/10"
+  },
+  {
+    "title": "40th of Imam Husayn (a) (Chehlum/Arbain)",
+    "date": "2/20"
+  },
+  {
+    "title": "Wafat of Prophet Muhammad (s)",
+    "date": "2/28"
+  },
+  {
+    "title": "Shahadat of Imam Ali ar-Ridha (a)",
+    "date": "2/29"
+  },
+  {
+    "title": "Wafat of Bibi Masuma Qum (a)",
+    "date": "3/4"
+  },
+  {
+    "title": "Shahadat of Imam Hasan al-Askari (a)",
+    "date": "3/8"
+  },
+  {
+    "title": "Eid az-Zahra (a)",
+    "date": "3/9"
+  },
+  {
+    "title": "First Day of Imamat of Imam Mahdi (atfs)",
+    "date": "3/9"
+  },
+  {
+    "title": "Wiladat of Prophet Muhammad (s)",
+    "date": "3/17"
+  },
+  {
+    "title": "Wiladat of Imam Jafar as-Sadiq (a)",
+    "date": "3/17"
+  },
+  {
+    "title": "Wiladat of Imam Hasan al-Askari",
+    "date": "4/10"
+  },
+  {
+    "title": "Wiladat of Bibi Zaynab (a)",
+    "date": "5/5"
+  },
+  {
+    "title": "First Fatimiyya - Shahadat of Bibi Fatima (a)",
+    "date": "5/13"
+  },
+  {
+    "title": "Shahadat of Bibi Fatima (a)",
+    "date": "6/3"
+  },
+  {
+    "title": "Wiladat of Bibi Fatima (a)",
+    "date": "6/20"
+  },
+  {
+    "title": "Wiladat of Imam Muhammad al-Baqir (a)",
+    "date": "7/1"
+  },
+  {
+    "title": "Shahadat of Imam Ali an-Naqi (a)",
+    "date": "7/3"
+  },
+  {
+    "title": "Wiladat of Imam Muhammad at-Taqi (a)",
+    "date": "7/10"
+  },
+  {
+    "title": "Wiladat of Imam Ali (a)",
+    "date": "7/13"
+  },
+  {
+    "title": "Wafat of Bibi Zaynab (a)",
+    "date": "7/15"
+  },
+  {
+    "title": "Shahadat of Imam Musa al-Kadhim (a)",
+    "date": "7/25"
+  },
+  {
+    "title": "Wafat of Hazarat Abu Talib (a)",
+    "date": "7/26"
+  },
+  {
+    "title": "Miraj & Mabath of Holy Prophet (s)",
+    "date": "7/27"
+  },
+  {
+    "title": "Wiladat of Imam Husayn (a)",
+    "date": "8/3"
+  },
+  {
+    "title": "Wiladat of Hazarat Abbas (a)",
+    "date": "8/4"
+  },
+  {
+    "title": "Wiladat of Imam Ali Zayn al-Abidin (a)",
+    "date": "8/5"
+  },
+  {
+    "title": "Wiladat of Imam Mahdi (atfs)",
+    "date": "8/15"
+  },
+  {
+    "title": "Wafat of Bibi Khadija (a)",
+    "date": "9/10"
+  },
+  {
+    "title": "Shahadat of Imam Hasan (a)",
+    "date": "9/15"
+  },
+  {
+    "title": "Yawm-E-Zarbat of Imam Ali (a)",
+    "date": "9/19"
+  },
+  {
+    "title": "Shahadat of Imam Ali (a)",
+    "date": "9/21"
+  },
+  {
+    "title": "Eid al-Fitr",
+    "date": "10/1"
+  },
+  {
+    "title": "Shahadat of Imam Jafar as-Sadiq",
+    "date": "10/25"
+  },
+  {
+    "title": "Wiladat of Imam Ali ar-Ridha",
+    "date": "11/11"
+  },
+  {
+    "title": "Shahadat of Imam Muhammad at-Taqi (a)",
+    "date": "11/30",
+    "fallbackDate": "11/29"
+  },
+  {
+    "title": "Shahadat of Imam Muhammad al-Baqir (a)",
+    "date": "12/7"
+  },
+  {
+    "title": "Shahadat of H. Muslim ibn Aqil (a)",
+    "date": "12/9"
+  },
+  {
+    "title": "Eid al-Adha",
+    "date": "12/10"
+  },
+  {
+    "title": "Wiladat of Imam Ali an-Naqi (a)",
+    "date": "12/15"
+  },
+  {
+    "title": "Eid al-Ghadir",
+    "date": "12/18"
+  },
+  {
+    "title": "Shahadat of sons of H. Muslim ibn Aqil (a)",
+    "date": "12/22"
+  },
+  {
+    "title": "Eid al-Mubahala",
+    "date": "12/24"
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "name": "jaffers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ics": "^2.35.0",
+    "moment-hijri": "https://github.com/saahiljaffer/moment-hijri"
+  }
+}
