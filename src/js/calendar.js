@@ -1,7 +1,7 @@
 const ics = require("ics");
 const { writeFileSync } = require("fs");
 const momentHijri = require("moment-hijri");
-const events = require("./events.json");
+const events = require("../events.json");
 
 const years = ["1443", "1444"];
 let myEventsList = [];

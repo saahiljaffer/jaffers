@@ -3,33 +3,15 @@ layout: base.njk
 title: Prayer Times
 ---
 
-<div class="flex justify-center items-center h-screen bg-black">
+<div class="flex justify-center items-center h-screen bg-black" x-data="{items: times}">
     <table class="table-fixed">
         <tbody class="text-white">
-            <tr>
-                <th class="text-right p-3" scope="row">Imsak</th>
-                <td>6:01 AM</td>
-            </tr>
-            <tr>
-                <th class="text-right p-3" scope="row">Fajr</th>
-                <td>6:06 AM</td>
-            </tr>
-            <tr>
-                <th class="text-right p-3" scope="row">Sunrise</th>
-                <td>7:31 AM</td>
-            </tr>
-            <tr>
-                <th class="text-right p-3" scope="row">Zuhr</th>
-                <td>1:27 PM</td>
-            </tr>
-            <tr>
-                <th class="text-right p-3" scope="row">Sunset</th>
-                <td>7:24 PM</td>
-            </tr>
-            <tr>
-                <th class="text-right p-3" scope="row">Maghrib</th>
-                <td>7:39 PM</td>
-            </tr>
+            <template x-for="item in items" :key="item.name">
+                <tr>
+                    <th class="text-right p-3" scope="row" x-text="item.name"></th>
+                    <td x-text=item.time></td>
+                </tr>
+            </template>
         </tbody>
     </table>
 </div>
