@@ -7,7 +7,7 @@ title: Prayer Times
         <tbody class="text-slate-50">
             <tr>
                 <th class="text-right p-1" scope="row" x-text="moment().format('iDo')"></th>
-                <td class="p-1" x-text="moment().format('iMMMM')"></td>
+                <td class="p-0.5" x-text="moment().format('iMMMM')"></td>
             </tr>
             <template x-for="item in items" :key="item.name">
                 <tr>
