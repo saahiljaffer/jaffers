@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "eleventy --serve & npx tailwindcss -i src/css/tailwind.css -o public/style.css --watch",
-    "build": "yarn build:events && eleventy && yarn build:tailwind",
+    "build": " eleventy && yarn build:tailwind && yarn build:events",
     "build:tailwind": "tailwindcss -i src/css/tailwind.css -o public/style.css --minify",
-    "build:events": "node src/calendar.js",
+    "build:events": "node src/js/event.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
