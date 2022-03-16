@@ -7,19 +7,16 @@
     "start": "eleventy --serve & npx tailwindcss -i src/css/tailwind.css -o public/style.css --watch",
     "build": " eleventy && yarn build:tailwind && yarn build:events",
     "build:tailwind": "tailwindcss -i src/css/tailwind.css -o public/style.css --minify",
-    "build:events": "node src/js/event.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build:events": "node src/js/shia-holidays.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "ics": "^2.35.0",
-    "moment-hijri": "https://github.com/saahiljaffer/moment-hijri"
-  },
   "devDependencies": {
     "@11ty/eleventy": "^1.0.0",
     "alpinejs": "^3.9.1",
+    "ics": "^2.35.0",
+    "moment-hijri": "https://github.com/saahiljaffer/moment-hijri",
     "tailwindcss": "^3.0.23"
   }
 }

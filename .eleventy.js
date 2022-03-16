@@ -12,12 +12,16 @@ module.exports = function (eleventyConfig) {
     "./node_modules/moment/min/moment.min.js": "./js/moment.js",
   });
 
+  eleventyConfig.addPassthroughCopy({
+    "./node_modules/moment-hijri/moment-hijri.js": "./js/moment-hijri.js",
+  });
+
   eleventyConfig.addShortcode("version", function () {
     return now;
   });
 
   eleventyConfig.addPassthroughCopy("./src/event.ics");
-  eleventyConfig.addPassthroughCopy("./src/js");
+  eleventyConfig.addPassthroughCopy("./src/js/app.js");
 
   return {
     dir: { input: "src", output: "public" },

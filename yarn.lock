@@ -1488,7 +1488,7 @@ mkdirp@^0.5.1:
 
 "moment-hijri@https://github.com/saahiljaffer/moment-hijri":
   version "2.1.2"
-  resolved "https://github.com/saahiljaffer/moment-hijri#890ad717721a437bb9939febdd5d8a75ab63136a"
+  resolved "https://github.com/saahiljaffer/moment-hijri#94f78ad9329fb90525ed5f016299fc989766ce01"
   dependencies:
     moment "^2.24.0"
 
