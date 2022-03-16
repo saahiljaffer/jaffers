@@ -33,5 +33,5 @@ ics.createEvents(myEventsList, (error, value) => {
     return;
   }
 
-  writeFileSync(`${__dirname}/../../public/holidays.ics`, value);
+  writeFileSync(`${__dirname}/../../public/shia-holidays.ics`, value);
 });
