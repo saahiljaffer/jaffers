@@ -3,7 +3,7 @@ var prayerTimes = [
     id: "0",
     month: 1,
     date: 1,
-    times: [
+    prayers: [
       { name: "imsak", time: "6:14" },
       { name: "fajr", time: "6:19" },
       { name: "sunrise", time: "7:52" },
@@ -16,7 +16,7 @@ var prayerTimes = [
     id: "1",
     month: 1,
     date: 2,
-    times: [
+    prayers: [
       { name: "imsak", time: "6:15" },
       { name: "fajr", time: "6:20" },
       { name: "sunrise", time: "7:52" },
@@ -29,7 +29,7 @@ var prayerTimes = [
     id: "2",
     month: 1,
     date: 3,
-    times: [
+    prayers: [
       { name: "imsak", time: "6:15" },
       { name: "fajr", time: "6:20" },
       { name: "sunrise", time: "7:52" },
@@ -42,7 +42,7 @@ var prayerTimes = [
     id: "3",
     month: 1,
     date: 4,
-    times: [
+    prayers: [
       { name: "imsak", time: "6:15" },
       { name: "fajr", time: "6:20" },
       { name: "sunrise", time: "7:52" },
@@ -55,7 +55,7 @@ var prayerTimes = [
     id: "4",
     month: 1,
     date: 5,
-    times: [
+    prayers: [
       { name: "imsak", time: "6:15" },
       { name: "fajr", time: "6:20" },
       { name: "sunrise", time: "7:52" },
@@ -68,7 +68,7 @@ var prayerTimes = [
     id: "5",
     month: 1,
     date: 6,
-    times: [
+    prayers: [
       { name: "imsak", time: "6:15" },
       { name: "fajr", time: "6:20" },
       { name: "sunrise", time: "7:52" },
@@ -81,7 +81,7 @@ var prayerTimes = [
     id: "6",
     month: 1,
     date: 7,
-    times: [
+    prayers: [
       { name: "imsak", time: "6:15" },
       { name: "fajr", time: "6:20" },
       { name: "sunrise", time: "7:52" },
@@ -94,7 +94,7 @@ var prayerTimes = [
     id: "7",
     month: 1,
     date: 8,
-    times: [
+    prayers: [
       { name: "imsak", time: "6:15" },
       { name: "fajr", time: "6:20" },
       { name: "sunrise", time: "7:52" },
@@ -107,7 +107,7 @@ var prayerTimes = [
     id: "8",
     month: 1,
     date: 9,
-    times: [
+    prayers: [
       { name: "imsak", time: "6:15" },
       { name: "fajr", time: "6:20" },
       { name: "sunrise", time: "7:51" },
@@ -120,7 +120,7 @@ var prayerTimes = [
     id: "9",
     month: 1,
     date: 10,
-    times: [
+    prayers: [
       { name: "imsak", time: "6:14" },
       { name: "fajr", time: "6:19" },
       { name: "sunrise", time: "7:51" },
@@ -133,7 +133,7 @@ var prayerTimes = [
     id: "10",
     month: 1,
     date: 11,
-    times: [
+    prayers: [
       { name: "imsak", time: "6:14" },
       { name: "fajr", time: "6:19" },
       { name: "sunrise", time: "7:51" },
@@ -146,7 +146,7 @@ var prayerTimes = [
     id: "11",
     month: 1,
     date: 12,
-    times: [
+    prayers: [
       { name: "imsak", time: "6:14" },
       { name: "fajr", time: "6:19" },
       { name: "sunrise", time: "7:50" },
@@ -159,7 +159,7 @@ var prayerTimes = [
     id: "12",
     month: 1,
     date: 13,
-    times: [
+    prayers: [
       { name: "imsak", time: "6:14" },
       { name: "fajr", time: "6:19" },
       { name: "sunrise", time: "7:50" },
@@ -172,7 +172,7 @@ var prayerTimes = [
     id: "13",
     month: 1,
     date: 14,
-    times: [
+    prayers: [
       { name: "imsak", time: "6:14" },
       { name: "fajr", time: "6:19" },
       { name: "sunrise", time: "7:50" },
@@ -185,7 +185,7 @@ var prayerTimes = [
     id: "14",
     month: 1,
     date: 15,
-    times: [
+    prayers: [
       { name: "imsak", time: "6:13" },
       { name: "fajr", time: "6:18" },
       { name: "sunrise", time: "7:49" },
@@ -198,7 +198,7 @@ var prayerTimes = [
     id: "15",
     month: 1,
     date: 16,
-    times: [
+    prayers: [
       { name: "imsak", time: "6:13" },
       { name: "fajr", time: "6:18" },
       { name: "sunrise", time: "7:49" },
@@ -211,7 +211,7 @@ var prayerTimes = [
     id: "16",
     month: 1,
     date: 17,
-    times: [
+    prayers: [
       { name: "imsak", time: "6:12" },
       { name: "fajr", time: "6:17" },
       { name: "sunrise", time: "7:48" },
@@ -224,7 +224,7 @@ var prayerTimes = [
     id: "17",
     month: 1,
     date: 18,
-    times: [
+    prayers: [
       { name: "imsak", time: "6:12" },
       { name: "fajr", time: "6:17" },
       { name: "sunrise", time: "7:47" },
@@ -237,7 +237,7 @@ var prayerTimes = [
     id: "18",
     month: 1,
     date: 19,
-    times: [
+    prayers: [
       { name: "imsak", time: "6:12" },
       { name: "fajr", time: "6:17" },
       { name: "sunrise", time: "7:47" },
@@ -250,7 +250,7 @@ var prayerTimes = [
     id: "19",
     month: 1,
     date: 20,
-    times: [
+    prayers: [
       { name: "imsak", time: "6:11" },
       { name: "fajr", time: "6:16" },
       { name: "sunrise", time: "7:46" },
@@ -263,7 +263,7 @@ var prayerTimes = [
     id: "20",
     month: 1,
     date: 21,
-    times: [
+    prayers: [
       { name: "imsak", time: "6:11" },
       { name: "fajr", time: "6:16" },
       { name: "sunrise", time: "7:45" },
@@ -276,7 +276,7 @@ var prayerTimes = [
     id: "21",
     month: 1,
     date: 22,
-    times: [
+    prayers: [
       { name: "imsak", time: "6:10" },
       { name: "fajr", time: "6:15" },
       { name: "sunrise", time: "7:45" },
@@ -289,7 +289,7 @@ var prayerTimes = [
     id: "22",
     month: 1,
     date: 23,
-    times: [
+    prayers: [
       { name: "imsak", time: "6:09" },
       { name: "fajr", time: "6:14" },
       { name: "sunrise", time: "7:44" },
@@ -302,7 +302,7 @@ var prayerTimes = [
     id: "23",
     month: 1,
     date: 24,
-    times: [
+    prayers: [
       { name: "imsak", time: "6:09" },
       { name: "fajr", time: "6:14" },
       { name: "sunrise", time: "7:43" },
@@ -315,7 +315,7 @@ var prayerTimes = [
     id: "24",
     month: 1,
     date: 25,
-    times: [
+    prayers: [
       { name: "imsak", time: "6:08" },
       { name: "fajr", time: "6:13" },
       { name: "sunrise", time: "7:42" },
@@ -328,7 +328,7 @@ var prayerTimes = [
     id: "25",
     month: 1,
     date: 26,
-    times: [
+    prayers: [
       { name: "imsak", time: "6:07" },
       { name: "fajr", time: "6:12" },
       { name: "sunrise", time: "7:41" },
@@ -341,7 +341,7 @@ var prayerTimes = [
     id: "26",
     month: 1,
     date: 27,
-    times: [
+    prayers: [
       { name: "imsak", time: "6:07" },
       { name: "fajr", time: "6:12" },
       { name: "sunrise", time: "7:40" },
@@ -354,7 +354,7 @@ var prayerTimes = [
     id: "27",
     month: 1,
     date: 28,
-    times: [
+    prayers: [
       { name: "imsak", time: "6:06" },
       { name: "fajr", time: "6:11" },
       { name: "sunrise", time: "7:39" },
@@ -367,7 +367,7 @@ var prayerTimes = [
     id: "28",
     month: 1,
     date: 29,
-    times: [
+    prayers: [
       { name: "imsak", time: "6:05" },
       { name: "fajr", time: "6:10" },
       { name: "sunrise", time: "7:38" },
@@ -380,7 +380,7 @@ var prayerTimes = [
     id: "29",
     month: 1,
     date: 30,
-    times: [
+    prayers: [
       { name: "imsak", time: "6:04" },
       { name: "fajr", time: "6:09" },
       { name: "sunrise", time: "7:37" },
@@ -393,7 +393,7 @@ var prayerTimes = [
     id: "30",
     month: 1,
     date: 31,
-    times: [
+    prayers: [
       { name: "imsak", time: "6:03" },
       { name: "fajr", time: "6:08" },
       { name: "sunrise", time: "7:36" },
@@ -406,7 +406,7 @@ var prayerTimes = [
     id: "31",
     month: 2,
     date: 1,
-    times: [
+    prayers: [
       { name: "imsak", time: "6:02" },
       { name: "fajr", time: "6:07" },
       { name: "sunrise", time: "7:35" },
@@ -419,7 +419,7 @@ var prayerTimes = [
     id: "32",
     month: 2,
     date: 2,
-    times: [
+    prayers: [
       { name: "imsak", time: "6:01" },
       { name: "fajr", time: "6:06" },
       { name: "sunrise", time: "7:34" },
@@ -432,7 +432,7 @@ var prayerTimes = [
     id: "33",
     month: 2,
     date: 3,
-    times: [
+    prayers: [
       { name: "imsak", time: "6:01" },
       { name: "fajr", time: "6:06" },
       { name: "sunrise", time: "7:33" },
@@ -445,7 +445,7 @@ var prayerTimes = [
     id: "34",
     month: 2,
     date: 4,
-    times: [
+    prayers: [
       { name: "imsak", time: "6:00" },
       { name: "fajr", time: "6:05" },
       { name: "sunrise", time: "7:32" },
@@ -458,7 +458,7 @@ var prayerTimes = [
     id: "35",
     month: 2,
     date: 5,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:58" },
       { name: "fajr", time: "6:03" },
       { name: "sunrise", time: "7:31" },
@@ -471,7 +471,7 @@ var prayerTimes = [
     id: "36",
     month: 2,
     date: 6,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:57" },
       { name: "fajr", time: "6:02" },
       { name: "sunrise", time: "7:29" },
@@ -484,7 +484,7 @@ var prayerTimes = [
     id: "37",
     month: 2,
     date: 7,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:56" },
       { name: "fajr", time: "6:01" },
       { name: "sunrise", time: "7:28" },
@@ -497,7 +497,7 @@ var prayerTimes = [
     id: "38",
     month: 2,
     date: 8,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:55" },
       { name: "fajr", time: "6:00" },
       { name: "sunrise", time: "7:27" },
@@ -510,7 +510,7 @@ var prayerTimes = [
     id: "39",
     month: 2,
     date: 9,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:54" },
       { name: "fajr", time: "5:59" },
       { name: "sunrise", time: "7:26" },
@@ -523,7 +523,7 @@ var prayerTimes = [
     id: "40",
     month: 2,
     date: 10,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:53" },
       { name: "fajr", time: "5:58" },
       { name: "sunrise", time: "7:24" },
@@ -536,7 +536,7 @@ var prayerTimes = [
     id: "41",
     month: 2,
     date: 11,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:52" },
       { name: "fajr", time: "5:57" },
       { name: "sunrise", time: "7:23" },
@@ -549,7 +549,7 @@ var prayerTimes = [
     id: "42",
     month: 2,
     date: 12,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:50" },
       { name: "fajr", time: "5:55" },
       { name: "sunrise", time: "7:22" },
@@ -562,7 +562,7 @@ var prayerTimes = [
     id: "43",
     month: 2,
     date: 13,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:49" },
       { name: "fajr", time: "5:54" },
       { name: "sunrise", time: "7:20" },
@@ -575,7 +575,7 @@ var prayerTimes = [
     id: "44",
     month: 2,
     date: 14,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:48" },
       { name: "fajr", time: "5:53" },
       { name: "sunrise", time: "7:19" },
@@ -588,7 +588,7 @@ var prayerTimes = [
     id: "45",
     month: 2,
     date: 15,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:47" },
       { name: "fajr", time: "5:52" },
       { name: "sunrise", time: "7:17" },
@@ -601,7 +601,7 @@ var prayerTimes = [
     id: "46",
     month: 2,
     date: 16,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:45" },
       { name: "fajr", time: "5:50" },
       { name: "sunrise", time: "7:16" },
@@ -614,7 +614,7 @@ var prayerTimes = [
     id: "47",
     month: 2,
     date: 17,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:44" },
       { name: "fajr", time: "5:49" },
       { name: "sunrise", time: "7:14" },
@@ -627,7 +627,7 @@ var prayerTimes = [
     id: "48",
     month: 2,
     date: 18,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:42" },
       { name: "fajr", time: "5:47" },
       { name: "sunrise", time: "7:13" },
@@ -640,7 +640,7 @@ var prayerTimes = [
     id: "49",
     month: 2,
     date: 19,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:41" },
       { name: "fajr", time: "5:46" },
       { name: "sunrise", time: "7:11" },
@@ -653,7 +653,7 @@ var prayerTimes = [
     id: "50",
     month: 2,
     date: 20,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:40" },
       { name: "fajr", time: "5:45" },
       { name: "sunrise", time: "7:10" },
@@ -666,7 +666,7 @@ var prayerTimes = [
     id: "51",
     month: 2,
     date: 21,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:38" },
       { name: "fajr", time: "5:43" },
       { name: "sunrise", time: "7:08" },
@@ -679,7 +679,7 @@ var prayerTimes = [
     id: "52",
     month: 2,
     date: 22,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:37" },
       { name: "fajr", time: "5:42" },
       { name: "sunrise", time: "7:07" },
@@ -692,7 +692,7 @@ var prayerTimes = [
     id: "53",
     month: 2,
     date: 23,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:35" },
       { name: "fajr", time: "5:40" },
       { name: "sunrise", time: "7:05" },
@@ -705,7 +705,7 @@ var prayerTimes = [
     id: "54",
     month: 2,
     date: 24,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:33" },
       { name: "fajr", time: "5:38" },
       { name: "sunrise", time: "7:03" },
@@ -718,7 +718,7 @@ var prayerTimes = [
     id: "55",
     month: 2,
     date: 25,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:32" },
       { name: "fajr", time: "5:37" },
       { name: "sunrise", time: "7:02" },
@@ -731,7 +731,7 @@ var prayerTimes = [
     id: "56",
     month: 2,
     date: 26,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:30" },
       { name: "fajr", time: "5:35" },
       { name: "sunrise", time: "7:00" },
@@ -744,7 +744,7 @@ var prayerTimes = [
     id: "57",
     month: 2,
     date: 27,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:29" },
       { name: "fajr", time: "5:34" },
       { name: "sunrise", time: "6:59" },
@@ -757,7 +757,7 @@ var prayerTimes = [
     id: "58",
     month: 2,
     date: 28,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:27" },
       { name: "fajr", time: "5:32" },
       { name: "sunrise", time: "6:57" },
@@ -770,7 +770,7 @@ var prayerTimes = [
     id: "59",
     month: 3,
     date: 1,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:26" },
       { name: "fajr", time: "5:31" },
       { name: "sunrise", time: "6:55" },
@@ -783,7 +783,7 @@ var prayerTimes = [
     id: "60",
     month: 3,
     date: 2,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:24" },
       { name: "fajr", time: "5:29" },
       { name: "sunrise", time: "6:54" },
@@ -796,7 +796,7 @@ var prayerTimes = [
     id: "61",
     month: 3,
     date: 3,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:22" },
       { name: "fajr", time: "5:27" },
       { name: "sunrise", time: "6:52" },
@@ -809,7 +809,7 @@ var prayerTimes = [
     id: "62",
     month: 3,
     date: 4,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:21" },
       { name: "fajr", time: "5:26" },
       { name: "sunrise", time: "6:50" },
@@ -822,7 +822,7 @@ var prayerTimes = [
     id: "63",
     month: 3,
     date: 5,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:19" },
       { name: "fajr", time: "5:24" },
       { name: "sunrise", time: "6:48" },
@@ -835,7 +835,7 @@ var prayerTimes = [
     id: "64",
     month: 3,
     date: 6,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:17" },
       { name: "fajr", time: "5:22" },
       { name: "sunrise", time: "6:47" },
@@ -848,7 +848,7 @@ var prayerTimes = [
     id: "65",
     month: 3,
     date: 7,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:15" },
       { name: "fajr", time: "5:20" },
       { name: "sunrise", time: "6:45" },
@@ -861,7 +861,7 @@ var prayerTimes = [
     id: "66",
     month: 3,
     date: 8,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:14" },
       { name: "fajr", time: "5:19" },
       { name: "sunrise", time: "6:43" },
@@ -874,7 +874,7 @@ var prayerTimes = [
     id: "67",
     month: 3,
     date: 9,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:12" },
       { name: "fajr", time: "5:17" },
       { name: "sunrise", time: "6:41" },
@@ -887,7 +887,7 @@ var prayerTimes = [
     id: "68",
     month: 3,
     date: 10,
-    times: [
+    prayers: [
       { name: "imsak", time: "6:10" },
       { name: "fajr", time: "6:15" },
       { name: "sunrise", time: "7:40" },
@@ -900,7 +900,7 @@ var prayerTimes = [
     id: "69",
     month: 3,
     date: 11,
-    times: [
+    prayers: [
       { name: "imsak", time: "6:08" },
       { name: "fajr", time: "6:13" },
       { name: "sunrise", time: "7:38" },
@@ -913,7 +913,7 @@ var prayerTimes = [
     id: "70",
     month: 3,
     date: 12,
-    times: [
+    prayers: [
       { name: "imsak", time: "6:06" },
       { name: "fajr", time: "6:11" },
       { name: "sunrise", time: "7:36" },
@@ -926,7 +926,7 @@ var prayerTimes = [
     id: "71",
     month: 3,
     date: 13,
-    times: [
+    prayers: [
       { name: "imsak", time: "6:05" },
       { name: "fajr", time: "6:10" },
       { name: "sunrise", time: "7:34" },
@@ -939,7 +939,7 @@ var prayerTimes = [
     id: "72",
     month: 3,
     date: 14,
-    times: [
+    prayers: [
       { name: "imsak", time: "6:03" },
       { name: "fajr", time: "6:08" },
       { name: "sunrise", time: "7:32" },
@@ -952,7 +952,7 @@ var prayerTimes = [
     id: "73",
     month: 3,
     date: 15,
-    times: [
+    prayers: [
       { name: "imsak", time: "6:01" },
       { name: "fajr", time: "6:06" },
       { name: "sunrise", time: "7:31" },
@@ -965,7 +965,7 @@ var prayerTimes = [
     id: "74",
     month: 3,
     date: 16,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:59" },
       { name: "fajr", time: "6:04" },
       { name: "sunrise", time: "7:29" },
@@ -978,7 +978,7 @@ var prayerTimes = [
     id: "75",
     month: 3,
     date: 17,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:57" },
       { name: "fajr", time: "6:02" },
       { name: "sunrise", time: "7:27" },
@@ -991,7 +991,7 @@ var prayerTimes = [
     id: "76",
     month: 3,
     date: 18,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:55" },
       { name: "fajr", time: "6:00" },
       { name: "sunrise", time: "7:25" },
@@ -1004,7 +1004,7 @@ var prayerTimes = [
     id: "77",
     month: 3,
     date: 19,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:53" },
       { name: "fajr", time: "5:58" },
       { name: "sunrise", time: "7:23" },
@@ -1017,7 +1017,7 @@ var prayerTimes = [
     id: "78",
     month: 3,
     date: 20,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:51" },
       { name: "fajr", time: "5:56" },
       { name: "sunrise", time: "7:22" },
@@ -1030,7 +1030,7 @@ var prayerTimes = [
     id: "79",
     month: 3,
     date: 21,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:49" },
       { name: "fajr", time: "5:54" },
       { name: "sunrise", time: "7:20" },
@@ -1043,7 +1043,7 @@ var prayerTimes = [
     id: "80",
     month: 3,
     date: 22,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:47" },
       { name: "fajr", time: "5:52" },
       { name: "sunrise", time: "7:18" },
@@ -1056,7 +1056,7 @@ var prayerTimes = [
     id: "81",
     month: 3,
     date: 23,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:45" },
       { name: "fajr", time: "5:50" },
       { name: "sunrise", time: "7:16" },
@@ -1069,7 +1069,7 @@ var prayerTimes = [
     id: "82",
     month: 3,
     date: 24,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:43" },
       { name: "fajr", time: "5:48" },
       { name: "sunrise", time: "7:14" },
@@ -1082,7 +1082,7 @@ var prayerTimes = [
     id: "83",
     month: 3,
     date: 25,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:41" },
       { name: "fajr", time: "5:46" },
       { name: "sunrise", time: "7:13" },
@@ -1095,7 +1095,7 @@ var prayerTimes = [
     id: "84",
     month: 3,
     date: 26,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:39" },
       { name: "fajr", time: "5:44" },
       { name: "sunrise", time: "7:11" },
@@ -1108,7 +1108,7 @@ var prayerTimes = [
     id: "85",
     month: 3,
     date: 27,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:37" },
       { name: "fajr", time: "5:42" },
       { name: "sunrise", time: "7:09" },
@@ -1121,7 +1121,7 @@ var prayerTimes = [
     id: "86",
     month: 3,
     date: 28,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:35" },
       { name: "fajr", time: "5:40" },
       { name: "sunrise", time: "7:07" },
@@ -1134,7 +1134,7 @@ var prayerTimes = [
     id: "87",
     month: 3,
     date: 29,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:33" },
       { name: "fajr", time: "5:38" },
       { name: "sunrise", time: "7:05" },
@@ -1147,7 +1147,7 @@ var prayerTimes = [
     id: "88",
     month: 3,
     date: 30,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:31" },
       { name: "fajr", time: "5:36" },
       { name: "sunrise", time: "7:03" },
@@ -1160,7 +1160,7 @@ var prayerTimes = [
     id: "89",
     month: 3,
     date: 31,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:29" },
       { name: "fajr", time: "5:34" },
       { name: "sunrise", time: "7:02" },
@@ -1173,7 +1173,7 @@ var prayerTimes = [
     id: "90",
     month: 4,
     date: 1,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:27" },
       { name: "fajr", time: "5:32" },
       { name: "sunrise", time: "7:00" },
@@ -1186,7 +1186,7 @@ var prayerTimes = [
     id: "91",
     month: 4,
     date: 2,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:25" },
       { name: "fajr", time: "5:30" },
       { name: "sunrise", time: "6:58" },
@@ -1199,7 +1199,7 @@ var prayerTimes = [
     id: "92",
     month: 4,
     date: 3,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:23" },
       { name: "fajr", time: "5:28" },
       { name: "sunrise", time: "6:56" },
@@ -1212,7 +1212,7 @@ var prayerTimes = [
     id: "93",
     month: 4,
     date: 4,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:21" },
       { name: "fajr", time: "5:26" },
       { name: "sunrise", time: "6:54" },
@@ -1225,7 +1225,7 @@ var prayerTimes = [
     id: "94",
     month: 4,
     date: 5,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:19" },
       { name: "fajr", time: "5:24" },
       { name: "sunrise", time: "6:53" },
@@ -1238,7 +1238,7 @@ var prayerTimes = [
     id: "95",
     month: 4,
     date: 6,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:17" },
       { name: "fajr", time: "5:22" },
       { name: "sunrise", time: "6:51" },
@@ -1251,7 +1251,7 @@ var prayerTimes = [
     id: "96",
     month: 4,
     date: 7,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:15" },
       { name: "fajr", time: "5:20" },
       { name: "sunrise", time: "6:49" },
@@ -1264,7 +1264,7 @@ var prayerTimes = [
     id: "97",
     month: 4,
     date: 8,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:13" },
       { name: "fajr", time: "5:18" },
       { name: "sunrise", time: "6:47" },
@@ -1277,7 +1277,7 @@ var prayerTimes = [
     id: "98",
     month: 4,
     date: 9,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:11" },
       { name: "fajr", time: "5:16" },
       { name: "sunrise", time: "6:46" },
@@ -1290,7 +1290,7 @@ var prayerTimes = [
     id: "99",
     month: 4,
     date: 10,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:09" },
       { name: "fajr", time: "5:14" },
       { name: "sunrise", time: "6:44" },
@@ -1303,7 +1303,7 @@ var prayerTimes = [
     id: "100",
     month: 4,
     date: 11,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:07" },
       { name: "fajr", time: "5:12" },
       { name: "sunrise", time: "6:42" },
@@ -1316,7 +1316,7 @@ var prayerTimes = [
     id: "101",
     month: 4,
     date: 12,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:05" },
       { name: "fajr", time: "5:10" },
       { name: "sunrise", time: "6:40" },
@@ -1329,7 +1329,7 @@ var prayerTimes = [
     id: "102",
     month: 4,
     date: 13,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:03" },
       { name: "fajr", time: "5:08" },
       { name: "sunrise", time: "6:39" },
@@ -1342,7 +1342,7 @@ var prayerTimes = [
     id: "103",
     month: 4,
     date: 14,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:01" },
       { name: "fajr", time: "5:06" },
       { name: "sunrise", time: "6:37" },
@@ -1355,7 +1355,7 @@ var prayerTimes = [
     id: "104",
     month: 4,
     date: 15,
-    times: [
+    prayers: [
       { name: "imsak", time: "4:59" },
       { name: "fajr", time: "5:04" },
       { name: "sunrise", time: "6:35" },
@@ -1368,7 +1368,7 @@ var prayerTimes = [
     id: "105",
     month: 4,
     date: 16,
-    times: [
+    prayers: [
       { name: "imsak", time: "4:57" },
       { name: "fajr", time: "5:02" },
       { name: "sunrise", time: "6:34" },
@@ -1381,7 +1381,7 @@ var prayerTimes = [
     id: "106",
     month: 4,
     date: 17,
-    times: [
+    prayers: [
       { name: "imsak", time: "4:55" },
       { name: "fajr", time: "5:00" },
       { name: "sunrise", time: "6:32" },
@@ -1394,7 +1394,7 @@ var prayerTimes = [
     id: "107",
     month: 4,
     date: 18,
-    times: [
+    prayers: [
       { name: "imsak", time: "4:52" },
       { name: "fajr", time: "4:57" },
       { name: "sunrise", time: "6:30" },
@@ -1407,7 +1407,7 @@ var prayerTimes = [
     id: "108",
     month: 4,
     date: 19,
-    times: [
+    prayers: [
       { name: "imsak", time: "4:50" },
       { name: "fajr", time: "4:55" },
       { name: "sunrise", time: "6:29" },
@@ -1420,7 +1420,7 @@ var prayerTimes = [
     id: "109",
     month: 4,
     date: 20,
-    times: [
+    prayers: [
       { name: "imsak", time: "4:48" },
       { name: "fajr", time: "4:53" },
       { name: "sunrise", time: "6:27" },
@@ -1433,7 +1433,7 @@ var prayerTimes = [
     id: "110",
     month: 4,
     date: 21,
-    times: [
+    prayers: [
       { name: "imsak", time: "4:46" },
       { name: "fajr", time: "4:51" },
       { name: "sunrise", time: "6:25" },
@@ -1446,7 +1446,7 @@ var prayerTimes = [
     id: "111",
     month: 4,
     date: 22,
-    times: [
+    prayers: [
       { name: "imsak", time: "4:44" },
       { name: "fajr", time: "4:49" },
       { name: "sunrise", time: "6:24" },
@@ -1459,7 +1459,7 @@ var prayerTimes = [
     id: "112",
     month: 4,
     date: 23,
-    times: [
+    prayers: [
       { name: "imsak", time: "4:42" },
       { name: "fajr", time: "4:47" },
       { name: "sunrise", time: "6:22" },
@@ -1472,7 +1472,7 @@ var prayerTimes = [
     id: "113",
     month: 4,
     date: 24,
-    times: [
+    prayers: [
       { name: "imsak", time: "4:40" },
       { name: "fajr", time: "4:45" },
       { name: "sunrise", time: "6:21" },
@@ -1485,7 +1485,7 @@ var prayerTimes = [
     id: "114",
     month: 4,
     date: 25,
-    times: [
+    prayers: [
       { name: "imsak", time: "4:38" },
       { name: "fajr", time: "4:43" },
       { name: "sunrise", time: "6:19" },
@@ -1498,7 +1498,7 @@ var prayerTimes = [
     id: "115",
     month: 4,
     date: 26,
-    times: [
+    prayers: [
       { name: "imsak", time: "4:36" },
       { name: "fajr", time: "4:41" },
       { name: "sunrise", time: "6:18" },
@@ -1511,7 +1511,7 @@ var prayerTimes = [
     id: "116",
     month: 4,
     date: 27,
-    times: [
+    prayers: [
       { name: "imsak", time: "4:34" },
       { name: "fajr", time: "4:39" },
       { name: "sunrise", time: "6:16" },
@@ -1524,7 +1524,7 @@ var prayerTimes = [
     id: "117",
     month: 4,
     date: 28,
-    times: [
+    prayers: [
       { name: "imsak", time: "4:32" },
       { name: "fajr", time: "4:37" },
       { name: "sunrise", time: "6:15" },
@@ -1537,7 +1537,7 @@ var prayerTimes = [
     id: "118",
     month: 4,
     date: 29,
-    times: [
+    prayers: [
       { name: "imsak", time: "4:30" },
       { name: "fajr", time: "4:35" },
       { name: "sunrise", time: "6:13" },
@@ -1550,7 +1550,7 @@ var prayerTimes = [
     id: "119",
     month: 4,
     date: 30,
-    times: [
+    prayers: [
       { name: "imsak", time: "4:28" },
       { name: "fajr", time: "4:33" },
       { name: "sunrise", time: "6:12" },
@@ -1563,7 +1563,7 @@ var prayerTimes = [
     id: "120",
     month: 5,
     date: 1,
-    times: [
+    prayers: [
       { name: "imsak", time: "4:26" },
       { name: "fajr", time: "4:31" },
       { name: "sunrise", time: "6:10" },
@@ -1576,7 +1576,7 @@ var prayerTimes = [
     id: "121",
     month: 5,
     date: 2,
-    times: [
+    prayers: [
       { name: "imsak", time: "4:24" },
       { name: "fajr", time: "4:29" },
       { name: "sunrise", time: "6:09" },
@@ -1589,7 +1589,7 @@ var prayerTimes = [
     id: "122",
     month: 5,
     date: 3,
-    times: [
+    prayers: [
       { name: "imsak", time: "4:23" },
       { name: "fajr", time: "4:28" },
       { name: "sunrise", time: "6:07" },
@@ -1602,7 +1602,7 @@ var prayerTimes = [
     id: "123",
     month: 5,
     date: 4,
-    times: [
+    prayers: [
       { name: "imsak", time: "4:21" },
       { name: "fajr", time: "4:26" },
       { name: "sunrise", time: "6:06" },
@@ -1615,7 +1615,7 @@ var prayerTimes = [
     id: "124",
     month: 5,
     date: 5,
-    times: [
+    prayers: [
       { name: "imsak", time: "4:19" },
       { name: "fajr", time: "4:24" },
       { name: "sunrise", time: "6:05" },
@@ -1628,7 +1628,7 @@ var prayerTimes = [
     id: "125",
     month: 5,
     date: 6,
-    times: [
+    prayers: [
       { name: "imsak", time: "4:17" },
       { name: "fajr", time: "4:22" },
       { name: "sunrise", time: "6:03" },
@@ -1641,7 +1641,7 @@ var prayerTimes = [
     id: "126",
     month: 5,
     date: 7,
-    times: [
+    prayers: [
       { name: "imsak", time: "4:15" },
       { name: "fajr", time: "4:20" },
       { name: "sunrise", time: "6:02" },
@@ -1654,7 +1654,7 @@ var prayerTimes = [
     id: "127",
     month: 5,
     date: 8,
-    times: [
+    prayers: [
       { name: "imsak", time: "4:13" },
       { name: "fajr", time: "4:18" },
       { name: "sunrise", time: "6:01" },
@@ -1667,7 +1667,7 @@ var prayerTimes = [
     id: "128",
     month: 5,
     date: 9,
-    times: [
+    prayers: [
       { name: "imsak", time: "4:11" },
       { name: "fajr", time: "4:16" },
       { name: "sunrise", time: "5:59" },
@@ -1680,7 +1680,7 @@ var prayerTimes = [
     id: "129",
     month: 5,
     date: 10,
-    times: [
+    prayers: [
       { name: "imsak", time: "4:09" },
       { name: "fajr", time: "4:14" },
       { name: "sunrise", time: "5:58" },
@@ -1693,7 +1693,7 @@ var prayerTimes = [
     id: "130",
     month: 5,
     date: 11,
-    times: [
+    prayers: [
       { name: "imsak", time: "4:08" },
       { name: "fajr", time: "4:13" },
       { name: "sunrise", time: "5:57" },
@@ -1706,7 +1706,7 @@ var prayerTimes = [
     id: "131",
     month: 5,
     date: 12,
-    times: [
+    prayers: [
       { name: "imsak", time: "4:06" },
       { name: "fajr", time: "4:11" },
       { name: "sunrise", time: "5:56" },
@@ -1719,7 +1719,7 @@ var prayerTimes = [
     id: "132",
     month: 5,
     date: 13,
-    times: [
+    prayers: [
       { name: "imsak", time: "4:04" },
       { name: "fajr", time: "4:09" },
       { name: "sunrise", time: "5:55" },
@@ -1732,7 +1732,7 @@ var prayerTimes = [
     id: "133",
     month: 5,
     date: 14,
-    times: [
+    prayers: [
       { name: "imsak", time: "4:02" },
       { name: "fajr", time: "4:07" },
       { name: "sunrise", time: "5:54" },
@@ -1745,7 +1745,7 @@ var prayerTimes = [
     id: "134",
     month: 5,
     date: 15,
-    times: [
+    prayers: [
       { name: "imsak", time: "4:01" },
       { name: "fajr", time: "4:06" },
       { name: "sunrise", time: "5:52" },
@@ -1758,7 +1758,7 @@ var prayerTimes = [
     id: "135",
     month: 5,
     date: 16,
-    times: [
+    prayers: [
       { name: "imsak", time: "3:59" },
       { name: "fajr", time: "4:04" },
       { name: "sunrise", time: "5:51" },
@@ -1771,7 +1771,7 @@ var prayerTimes = [
     id: "136",
     month: 5,
     date: 17,
-    times: [
+    prayers: [
       { name: "imsak", time: "3:57" },
       { name: "fajr", time: "4:02" },
       { name: "sunrise", time: "5:50" },
@@ -1784,7 +1784,7 @@ var prayerTimes = [
     id: "137",
     month: 5,
     date: 18,
-    times: [
+    prayers: [
       { name: "imsak", time: "3:56" },
       { name: "fajr", time: "4:01" },
       { name: "sunrise", time: "5:49" },
@@ -1797,7 +1797,7 @@ var prayerTimes = [
     id: "138",
     month: 5,
     date: 19,
-    times: [
+    prayers: [
       { name: "imsak", time: "3:54" },
       { name: "fajr", time: "3:59" },
       { name: "sunrise", time: "5:48" },
@@ -1810,7 +1810,7 @@ var prayerTimes = [
     id: "139",
     month: 5,
     date: 20,
-    times: [
+    prayers: [
       { name: "imsak", time: "3:53" },
       { name: "fajr", time: "3:58" },
       { name: "sunrise", time: "5:47" },
@@ -1823,7 +1823,7 @@ var prayerTimes = [
     id: "140",
     month: 5,
     date: 21,
-    times: [
+    prayers: [
       { name: "imsak", time: "3:51" },
       { name: "fajr", time: "3:56" },
       { name: "sunrise", time: "5:46" },
@@ -1836,7 +1836,7 @@ var prayerTimes = [
     id: "141",
     month: 5,
     date: 22,
-    times: [
+    prayers: [
       { name: "imsak", time: "3:50" },
       { name: "fajr", time: "3:55" },
       { name: "sunrise", time: "5:46" },
@@ -1849,7 +1849,7 @@ var prayerTimes = [
     id: "142",
     month: 5,
     date: 23,
-    times: [
+    prayers: [
       { name: "imsak", time: "3:48" },
       { name: "fajr", time: "3:53" },
       { name: "sunrise", time: "5:45" },
@@ -1862,7 +1862,7 @@ var prayerTimes = [
     id: "143",
     month: 5,
     date: 24,
-    times: [
+    prayers: [
       { name: "imsak", time: "3:47" },
       { name: "fajr", time: "3:52" },
       { name: "sunrise", time: "5:44" },
@@ -1875,7 +1875,7 @@ var prayerTimes = [
     id: "144",
     month: 5,
     date: 25,
-    times: [
+    prayers: [
       { name: "imsak", time: "3:46" },
       { name: "fajr", time: "3:51" },
       { name: "sunrise", time: "5:43" },
@@ -1888,7 +1888,7 @@ var prayerTimes = [
     id: "145",
     month: 5,
     date: 26,
-    times: [
+    prayers: [
       { name: "imsak", time: "3:44" },
       { name: "fajr", time: "3:49" },
       { name: "sunrise", time: "5:42" },
@@ -1901,7 +1901,7 @@ var prayerTimes = [
     id: "146",
     month: 5,
     date: 27,
-    times: [
+    prayers: [
       { name: "imsak", time: "3:43" },
       { name: "fajr", time: "3:48" },
       { name: "sunrise", time: "5:42" },
@@ -1914,7 +1914,7 @@ var prayerTimes = [
     id: "147",
     month: 5,
     date: 28,
-    times: [
+    prayers: [
       { name: "imsak", time: "3:42" },
       { name: "fajr", time: "3:47" },
       { name: "sunrise", time: "5:41" },
@@ -1927,7 +1927,7 @@ var prayerTimes = [
     id: "148",
     month: 5,
     date: 29,
-    times: [
+    prayers: [
       { name: "imsak", time: "3:41" },
       { name: "fajr", time: "3:46" },
       { name: "sunrise", time: "5:40" },
@@ -1940,7 +1940,7 @@ var prayerTimes = [
     id: "149",
     month: 5,
     date: 30,
-    times: [
+    prayers: [
       { name: "imsak", time: "3:39" },
       { name: "fajr", time: "3:44" },
       { name: "sunrise", time: "5:40" },
@@ -1953,7 +1953,7 @@ var prayerTimes = [
     id: "150",
     month: 5,
     date: 31,
-    times: [
+    prayers: [
       { name: "imsak", time: "3:38" },
       { name: "fajr", time: "3:43" },
       { name: "sunrise", time: "5:39" },
@@ -1966,7 +1966,7 @@ var prayerTimes = [
     id: "151",
     month: 6,
     date: 1,
-    times: [
+    prayers: [
       { name: "imsak", time: "3:37" },
       { name: "fajr", time: "3:42" },
       { name: "sunrise", time: "5:39" },
@@ -1979,7 +1979,7 @@ var prayerTimes = [
     id: "152",
     month: 6,
     date: 2,
-    times: [
+    prayers: [
       { name: "imsak", time: "3:36" },
       { name: "fajr", time: "3:41" },
       { name: "sunrise", time: "5:38" },
@@ -1992,7 +1992,7 @@ var prayerTimes = [
     id: "153",
     month: 6,
     date: 3,
-    times: [
+    prayers: [
       { name: "imsak", time: "3:35" },
       { name: "fajr", time: "3:40" },
       { name: "sunrise", time: "5:38" },
@@ -2005,7 +2005,7 @@ var prayerTimes = [
     id: "154",
     month: 6,
     date: 4,
-    times: [
+    prayers: [
       { name: "imsak", time: "3:34" },
       { name: "fajr", time: "3:39" },
       { name: "sunrise", time: "5:37" },
@@ -2018,7 +2018,7 @@ var prayerTimes = [
     id: "155",
     month: 6,
     date: 5,
-    times: [
+    prayers: [
       { name: "imsak", time: "3:33" },
       { name: "fajr", time: "3:38" },
       { name: "sunrise", time: "5:37" },
@@ -2031,7 +2031,7 @@ var prayerTimes = [
     id: "156",
     month: 6,
     date: 6,
-    times: [
+    prayers: [
       { name: "imsak", time: "3:33" },
       { name: "fajr", time: "3:38" },
       { name: "sunrise", time: "5:36" },
@@ -2044,7 +2044,7 @@ var prayerTimes = [
     id: "157",
     month: 6,
     date: 7,
-    times: [
+    prayers: [
       { name: "imsak", time: "3:32" },
       { name: "fajr", time: "3:37" },
       { name: "sunrise", time: "5:36" },
@@ -2057,7 +2057,7 @@ var prayerTimes = [
     id: "158",
     month: 6,
     date: 8,
-    times: [
+    prayers: [
       { name: "imsak", time: "3:31" },
       { name: "fajr", time: "3:36" },
       { name: "sunrise", time: "5:36" },
@@ -2070,7 +2070,7 @@ var prayerTimes = [
     id: "159",
     month: 6,
     date: 9,
-    times: [
+    prayers: [
       { name: "imsak", time: "3:31" },
       { name: "fajr", time: "3:36" },
       { name: "sunrise", time: "5:36" },
@@ -2083,7 +2083,7 @@ var prayerTimes = [
     id: "160",
     month: 6,
     date: 10,
-    times: [
+    prayers: [
       { name: "imsak", time: "3:30" },
       { name: "fajr", time: "3:35" },
       { name: "sunrise", time: "5:35" },
@@ -2096,7 +2096,7 @@ var prayerTimes = [
     id: "161",
     month: 6,
     date: 11,
-    times: [
+    prayers: [
       { name: "imsak", time: "3:30" },
       { name: "fajr", time: "3:35" },
       { name: "sunrise", time: "5:35" },
@@ -2109,7 +2109,7 @@ var prayerTimes = [
     id: "162",
     month: 6,
     date: 12,
-    times: [
+    prayers: [
       { name: "imsak", time: "3:29" },
       { name: "fajr", time: "3:34" },
       { name: "sunrise", time: "5:35" },
@@ -2122,7 +2122,7 @@ var prayerTimes = [
     id: "163",
     month: 6,
     date: 13,
-    times: [
+    prayers: [
       { name: "imsak", time: "3:29" },
       { name: "fajr", time: "3:34" },
       { name: "sunrise", time: "5:35" },
@@ -2135,7 +2135,7 @@ var prayerTimes = [
     id: "164",
     month: 6,
     date: 14,
-    times: [
+    prayers: [
       { name: "imsak", time: "3:29" },
       { name: "fajr", time: "3:34" },
       { name: "sunrise", time: "5:35" },
@@ -2148,7 +2148,7 @@ var prayerTimes = [
     id: "165",
     month: 6,
     date: 15,
-    times: [
+    prayers: [
       { name: "imsak", time: "3:28" },
       { name: "fajr", time: "3:33" },
       { name: "sunrise", time: "5:35" },
@@ -2161,7 +2161,7 @@ var prayerTimes = [
     id: "166",
     month: 6,
     date: 16,
-    times: [
+    prayers: [
       { name: "imsak", time: "3:28" },
       { name: "fajr", time: "3:33" },
       { name: "sunrise", time: "5:35" },
@@ -2174,7 +2174,7 @@ var prayerTimes = [
     id: "167",
     month: 6,
     date: 17,
-    times: [
+    prayers: [
       { name: "imsak", time: "3:28" },
       { name: "fajr", time: "3:33" },
       { name: "sunrise", time: "5:35" },
@@ -2187,7 +2187,7 @@ var prayerTimes = [
     id: "168",
     month: 6,
     date: 18,
-    times: [
+    prayers: [
       { name: "imsak", time: "3:28" },
       { name: "fajr", time: "3:33" },
       { name: "sunrise", time: "5:35" },
@@ -2200,7 +2200,7 @@ var prayerTimes = [
     id: "169",
     month: 6,
     date: 19,
-    times: [
+    prayers: [
       { name: "imsak", time: "3:28" },
       { name: "fajr", time: "3:33" },
       { name: "sunrise", time: "5:35" },
@@ -2213,7 +2213,7 @@ var prayerTimes = [
     id: "170",
     month: 6,
     date: 20,
-    times: [
+    prayers: [
       { name: "imsak", time: "3:28" },
       { name: "fajr", time: "3:33" },
       { name: "sunrise", time: "5:35" },
@@ -2226,7 +2226,7 @@ var prayerTimes = [
     id: "171",
     month: 6,
     date: 21,
-    times: [
+    prayers: [
       { name: "imsak", time: "3:28" },
       { name: "fajr", time: "3:33" },
       { name: "sunrise", time: "5:35" },
@@ -2239,7 +2239,7 @@ var prayerTimes = [
     id: "172",
     month: 6,
     date: 22,
-    times: [
+    prayers: [
       { name: "imsak", time: "3:29" },
       { name: "fajr", time: "3:34" },
       { name: "sunrise", time: "5:36" },
@@ -2252,7 +2252,7 @@ var prayerTimes = [
     id: "173",
     month: 6,
     date: 23,
-    times: [
+    prayers: [
       { name: "imsak", time: "3:29" },
       { name: "fajr", time: "3:34" },
       { name: "sunrise", time: "5:36" },
@@ -2265,7 +2265,7 @@ var prayerTimes = [
     id: "174",
     month: 6,
     date: 24,
-    times: [
+    prayers: [
       { name: "imsak", time: "3:29" },
       { name: "fajr", time: "3:34" },
       { name: "sunrise", time: "5:36" },
@@ -2278,7 +2278,7 @@ var prayerTimes = [
     id: "175",
     month: 6,
     date: 25,
-    times: [
+    prayers: [
       { name: "imsak", time: "3:30" },
       { name: "fajr", time: "3:35" },
       { name: "sunrise", time: "5:36" },
@@ -2291,7 +2291,7 @@ var prayerTimes = [
     id: "176",
     month: 6,
     date: 26,
-    times: [
+    prayers: [
       { name: "imsak", time: "3:30" },
       { name: "fajr", time: "3:35" },
       { name: "sunrise", time: "5:37" },
@@ -2304,7 +2304,7 @@ var prayerTimes = [
     id: "177",
     month: 6,
     date: 27,
-    times: [
+    prayers: [
       { name: "imsak", time: "3:31" },
       { name: "fajr", time: "3:36" },
       { name: "sunrise", time: "5:37" },
@@ -2317,7 +2317,7 @@ var prayerTimes = [
     id: "178",
     month: 6,
     date: 28,
-    times: [
+    prayers: [
       { name: "imsak", time: "3:31" },
       { name: "fajr", time: "3:36" },
       { name: "sunrise", time: "5:38" },
@@ -2330,7 +2330,7 @@ var prayerTimes = [
     id: "179",
     month: 6,
     date: 29,
-    times: [
+    prayers: [
       { name: "imsak", time: "3:32" },
       { name: "fajr", time: "3:37" },
       { name: "sunrise", time: "5:38" },
@@ -2343,7 +2343,7 @@ var prayerTimes = [
     id: "180",
     month: 6,
     date: 30,
-    times: [
+    prayers: [
       { name: "imsak", time: "3:33" },
       { name: "fajr", time: "3:38" },
       { name: "sunrise", time: "5:39" },
@@ -2356,7 +2356,7 @@ var prayerTimes = [
     id: "181",
     month: 7,
     date: 1,
-    times: [
+    prayers: [
       { name: "imsak", time: "3:33" },
       { name: "fajr", time: "3:38" },
       { name: "sunrise", time: "5:39" },
@@ -2369,7 +2369,7 @@ var prayerTimes = [
     id: "182",
     month: 7,
     date: 2,
-    times: [
+    prayers: [
       { name: "imsak", time: "3:34" },
       { name: "fajr", time: "3:39" },
       { name: "sunrise", time: "5:40" },
@@ -2382,7 +2382,7 @@ var prayerTimes = [
     id: "183",
     month: 7,
     date: 3,
-    times: [
+    prayers: [
       { name: "imsak", time: "3:35" },
       { name: "fajr", time: "3:40" },
       { name: "sunrise", time: "5:40" },
@@ -2395,7 +2395,7 @@ var prayerTimes = [
     id: "184",
     month: 7,
     date: 4,
-    times: [
+    prayers: [
       { name: "imsak", time: "3:36" },
       { name: "fajr", time: "3:41" },
       { name: "sunrise", time: "5:41" },
@@ -2408,7 +2408,7 @@ var prayerTimes = [
     id: "185",
     month: 7,
     date: 5,
-    times: [
+    prayers: [
       { name: "imsak", time: "3:37" },
       { name: "fajr", time: "3:42" },
       { name: "sunrise", time: "5:41" },
@@ -2421,7 +2421,7 @@ var prayerTimes = [
     id: "186",
     month: 7,
     date: 6,
-    times: [
+    prayers: [
       { name: "imsak", time: "3:38" },
       { name: "fajr", time: "3:43" },
       { name: "sunrise", time: "5:42" },
@@ -2434,7 +2434,7 @@ var prayerTimes = [
     id: "187",
     month: 7,
     date: 7,
-    times: [
+    prayers: [
       { name: "imsak", time: "3:39" },
       { name: "fajr", time: "3:44" },
       { name: "sunrise", time: "5:43" },
@@ -2447,7 +2447,7 @@ var prayerTimes = [
     id: "188",
     month: 7,
     date: 8,
-    times: [
+    prayers: [
       { name: "imsak", time: "3:40" },
       { name: "fajr", time: "3:45" },
       { name: "sunrise", time: "5:43" },
@@ -2460,7 +2460,7 @@ var prayerTimes = [
     id: "189",
     month: 7,
     date: 9,
-    times: [
+    prayers: [
       { name: "imsak", time: "3:42" },
       { name: "fajr", time: "3:47" },
       { name: "sunrise", time: "5:44" },
@@ -2473,7 +2473,7 @@ var prayerTimes = [
     id: "190",
     month: 7,
     date: 10,
-    times: [
+    prayers: [
       { name: "imsak", time: "3:43" },
       { name: "fajr", time: "3:48" },
       { name: "sunrise", time: "5:45" },
@@ -2486,7 +2486,7 @@ var prayerTimes = [
     id: "191",
     month: 7,
     date: 11,
-    times: [
+    prayers: [
       { name: "imsak", time: "3:44" },
       { name: "fajr", time: "3:49" },
       { name: "sunrise", time: "5:46" },
@@ -2499,7 +2499,7 @@ var prayerTimes = [
     id: "192",
     month: 7,
     date: 12,
-    times: [
+    prayers: [
       { name: "imsak", time: "3:45" },
       { name: "fajr", time: "3:50" },
       { name: "sunrise", time: "5:47" },
@@ -2512,7 +2512,7 @@ var prayerTimes = [
     id: "193",
     month: 7,
     date: 13,
-    times: [
+    prayers: [
       { name: "imsak", time: "3:47" },
       { name: "fajr", time: "3:52" },
       { name: "sunrise", time: "5:47" },
@@ -2525,7 +2525,7 @@ var prayerTimes = [
     id: "194",
     month: 7,
     date: 14,
-    times: [
+    prayers: [
       { name: "imsak", time: "3:48" },
       { name: "fajr", time: "3:53" },
       { name: "sunrise", time: "5:48" },
@@ -2538,7 +2538,7 @@ var prayerTimes = [
     id: "195",
     month: 7,
     date: 15,
-    times: [
+    prayers: [
       { name: "imsak", time: "3:49" },
       { name: "fajr", time: "3:54" },
       { name: "sunrise", time: "5:49" },
@@ -2551,7 +2551,7 @@ var prayerTimes = [
     id: "196",
     month: 7,
     date: 16,
-    times: [
+    prayers: [
       { name: "imsak", time: "3:51" },
       { name: "fajr", time: "3:56" },
       { name: "sunrise", time: "5:50" },
@@ -2564,7 +2564,7 @@ var prayerTimes = [
     id: "197",
     month: 7,
     date: 17,
-    times: [
+    prayers: [
       { name: "imsak", time: "3:52" },
       { name: "fajr", time: "3:57" },
       { name: "sunrise", time: "5:51" },
@@ -2577,7 +2577,7 @@ var prayerTimes = [
     id: "198",
     month: 7,
     date: 18,
-    times: [
+    prayers: [
       { name: "imsak", time: "3:54" },
       { name: "fajr", time: "3:59" },
       { name: "sunrise", time: "5:52" },
@@ -2590,7 +2590,7 @@ var prayerTimes = [
     id: "199",
     month: 7,
     date: 19,
-    times: [
+    prayers: [
       { name: "imsak", time: "3:55" },
       { name: "fajr", time: "4:00" },
       { name: "sunrise", time: "5:53" },
@@ -2603,7 +2603,7 @@ var prayerTimes = [
     id: "200",
     month: 7,
     date: 20,
-    times: [
+    prayers: [
       { name: "imsak", time: "3:57" },
       { name: "fajr", time: "4:02" },
       { name: "sunrise", time: "5:54" },
@@ -2616,7 +2616,7 @@ var prayerTimes = [
     id: "201",
     month: 7,
     date: 21,
-    times: [
+    prayers: [
       { name: "imsak", time: "3:58" },
       { name: "fajr", time: "4:03" },
       { name: "sunrise", time: "5:55" },
@@ -2629,7 +2629,7 @@ var prayerTimes = [
     id: "202",
     month: 7,
     date: 22,
-    times: [
+    prayers: [
       { name: "imsak", time: "4:00" },
       { name: "fajr", time: "4:05" },
       { name: "sunrise", time: "5:56" },
@@ -2642,7 +2642,7 @@ var prayerTimes = [
     id: "203",
     month: 7,
     date: 23,
-    times: [
+    prayers: [
       { name: "imsak", time: "4:01" },
       { name: "fajr", time: "4:06" },
       { name: "sunrise", time: "5:57" },
@@ -2655,7 +2655,7 @@ var prayerTimes = [
     id: "204",
     month: 7,
     date: 24,
-    times: [
+    prayers: [
       { name: "imsak", time: "4:03" },
       { name: "fajr", time: "4:08" },
       { name: "sunrise", time: "5:58" },
@@ -2668,7 +2668,7 @@ var prayerTimes = [
     id: "205",
     month: 7,
     date: 25,
-    times: [
+    prayers: [
       { name: "imsak", time: "4:05" },
       { name: "fajr", time: "4:10" },
       { name: "sunrise", time: "5:59" },
@@ -2681,7 +2681,7 @@ var prayerTimes = [
     id: "206",
     month: 7,
     date: 26,
-    times: [
+    prayers: [
       { name: "imsak", time: "4:06" },
       { name: "fajr", time: "4:11" },
       { name: "sunrise", time: "6:00" },
@@ -2694,7 +2694,7 @@ var prayerTimes = [
     id: "207",
     month: 7,
     date: 27,
-    times: [
+    prayers: [
       { name: "imsak", time: "4:08" },
       { name: "fajr", time: "4:13" },
       { name: "sunrise", time: "6:01" },
@@ -2707,7 +2707,7 @@ var prayerTimes = [
     id: "208",
     month: 7,
     date: 28,
-    times: [
+    prayers: [
       { name: "imsak", time: "4:10" },
       { name: "fajr", time: "4:15" },
       { name: "sunrise", time: "6:02" },
@@ -2720,7 +2720,7 @@ var prayerTimes = [
     id: "209",
     month: 7,
     date: 29,
-    times: [
+    prayers: [
       { name: "imsak", time: "4:11" },
       { name: "fajr", time: "4:16" },
       { name: "sunrise", time: "6:03" },
@@ -2733,7 +2733,7 @@ var prayerTimes = [
     id: "210",
     month: 7,
     date: 30,
-    times: [
+    prayers: [
       { name: "imsak", time: "4:13" },
       { name: "fajr", time: "4:18" },
       { name: "sunrise", time: "6:04" },
@@ -2746,7 +2746,7 @@ var prayerTimes = [
     id: "211",
     month: 7,
     date: 31,
-    times: [
+    prayers: [
       { name: "imsak", time: "4:14" },
       { name: "fajr", time: "4:19" },
       { name: "sunrise", time: "6:05" },
@@ -2759,7 +2759,7 @@ var prayerTimes = [
     id: "212",
     month: 8,
     date: 1,
-    times: [
+    prayers: [
       { name: "imsak", time: "4:16" },
       { name: "fajr", time: "4:21" },
       { name: "sunrise", time: "6:06" },
@@ -2772,7 +2772,7 @@ var prayerTimes = [
     id: "213",
     month: 8,
     date: 2,
-    times: [
+    prayers: [
       { name: "imsak", time: "4:18" },
       { name: "fajr", time: "4:23" },
       { name: "sunrise", time: "6:07" },
@@ -2785,7 +2785,7 @@ var prayerTimes = [
     id: "214",
     month: 8,
     date: 3,
-    times: [
+    prayers: [
       { name: "imsak", time: "4:19" },
       { name: "fajr", time: "4:24" },
       { name: "sunrise", time: "6:08" },
@@ -2798,7 +2798,7 @@ var prayerTimes = [
     id: "215",
     month: 8,
     date: 4,
-    times: [
+    prayers: [
       { name: "imsak", time: "4:21" },
       { name: "fajr", time: "4:26" },
       { name: "sunrise", time: "6:09" },
@@ -2811,7 +2811,7 @@ var prayerTimes = [
     id: "216",
     month: 8,
     date: 5,
-    times: [
+    prayers: [
       { name: "imsak", time: "4:23" },
       { name: "fajr", time: "4:28" },
       { name: "sunrise", time: "6:10" },
@@ -2824,7 +2824,7 @@ var prayerTimes = [
     id: "217",
     month: 8,
     date: 6,
-    times: [
+    prayers: [
       { name: "imsak", time: "4:24" },
       { name: "fajr", time: "4:29" },
       { name: "sunrise", time: "6:11" },
@@ -2837,7 +2837,7 @@ var prayerTimes = [
     id: "218",
     month: 8,
     date: 7,
-    times: [
+    prayers: [
       { name: "imsak", time: "4:26" },
       { name: "fajr", time: "4:31" },
       { name: "sunrise", time: "6:13" },
@@ -2850,7 +2850,7 @@ var prayerTimes = [
     id: "219",
     month: 8,
     date: 8,
-    times: [
+    prayers: [
       { name: "imsak", time: "4:28" },
       { name: "fajr", time: "4:33" },
       { name: "sunrise", time: "6:14" },
@@ -2863,7 +2863,7 @@ var prayerTimes = [
     id: "220",
     month: 8,
     date: 9,
-    times: [
+    prayers: [
       { name: "imsak", time: "4:29" },
       { name: "fajr", time: "4:34" },
       { name: "sunrise", time: "6:15" },
@@ -2876,7 +2876,7 @@ var prayerTimes = [
     id: "221",
     month: 8,
     date: 10,
-    times: [
+    prayers: [
       { name: "imsak", time: "4:31" },
       { name: "fajr", time: "4:36" },
       { name: "sunrise", time: "6:16" },
@@ -2889,7 +2889,7 @@ var prayerTimes = [
     id: "222",
     month: 8,
     date: 11,
-    times: [
+    prayers: [
       { name: "imsak", time: "4:33" },
       { name: "fajr", time: "4:38" },
       { name: "sunrise", time: "6:17" },
@@ -2902,7 +2902,7 @@ var prayerTimes = [
     id: "223",
     month: 8,
     date: 12,
-    times: [
+    prayers: [
       { name: "imsak", time: "4:34" },
       { name: "fajr", time: "4:39" },
       { name: "sunrise", time: "6:18" },
@@ -2915,7 +2915,7 @@ var prayerTimes = [
     id: "224",
     month: 8,
     date: 13,
-    times: [
+    prayers: [
       { name: "imsak", time: "4:36" },
       { name: "fajr", time: "4:41" },
       { name: "sunrise", time: "6:19" },
@@ -2928,7 +2928,7 @@ var prayerTimes = [
     id: "225",
     month: 8,
     date: 14,
-    times: [
+    prayers: [
       { name: "imsak", time: "4:38" },
       { name: "fajr", time: "4:43" },
       { name: "sunrise", time: "6:20" },
@@ -2941,7 +2941,7 @@ var prayerTimes = [
     id: "226",
     month: 8,
     date: 15,
-    times: [
+    prayers: [
       { name: "imsak", time: "4:39" },
       { name: "fajr", time: "4:44" },
       { name: "sunrise", time: "6:22" },
@@ -2954,7 +2954,7 @@ var prayerTimes = [
     id: "227",
     month: 8,
     date: 16,
-    times: [
+    prayers: [
       { name: "imsak", time: "4:41" },
       { name: "fajr", time: "4:46" },
       { name: "sunrise", time: "6:23" },
@@ -2967,7 +2967,7 @@ var prayerTimes = [
     id: "228",
     month: 8,
     date: 17,
-    times: [
+    prayers: [
       { name: "imsak", time: "4:42" },
       { name: "fajr", time: "4:47" },
       { name: "sunrise", time: "6:24" },
@@ -2980,7 +2980,7 @@ var prayerTimes = [
     id: "229",
     month: 8,
     date: 18,
-    times: [
+    prayers: [
       { name: "imsak", time: "4:44" },
       { name: "fajr", time: "4:49" },
       { name: "sunrise", time: "6:25" },
@@ -2993,7 +2993,7 @@ var prayerTimes = [
     id: "230",
     month: 8,
     date: 19,
-    times: [
+    prayers: [
       { name: "imsak", time: "4:46" },
       { name: "fajr", time: "4:51" },
       { name: "sunrise", time: "6:26" },
@@ -3006,7 +3006,7 @@ var prayerTimes = [
     id: "231",
     month: 8,
     date: 20,
-    times: [
+    prayers: [
       { name: "imsak", time: "4:47" },
       { name: "fajr", time: "4:52" },
       { name: "sunrise", time: "6:27" },
@@ -3019,7 +3019,7 @@ var prayerTimes = [
     id: "232",
     month: 8,
     date: 21,
-    times: [
+    prayers: [
       { name: "imsak", time: "4:49" },
       { name: "fajr", time: "4:54" },
       { name: "sunrise", time: "6:28" },
@@ -3032,7 +3032,7 @@ var prayerTimes = [
     id: "233",
     month: 8,
     date: 22,
-    times: [
+    prayers: [
       { name: "imsak", time: "4:50" },
       { name: "fajr", time: "4:55" },
       { name: "sunrise", time: "6:29" },
@@ -3045,7 +3045,7 @@ var prayerTimes = [
     id: "234",
     month: 8,
     date: 23,
-    times: [
+    prayers: [
       { name: "imsak", time: "4:52" },
       { name: "fajr", time: "4:57" },
       { name: "sunrise", time: "6:31" },
@@ -3058,7 +3058,7 @@ var prayerTimes = [
     id: "235",
     month: 8,
     date: 24,
-    times: [
+    prayers: [
       { name: "imsak", time: "4:53" },
       { name: "fajr", time: "4:58" },
       { name: "sunrise", time: "6:32" },
@@ -3071,7 +3071,7 @@ var prayerTimes = [
     id: "236",
     month: 8,
     date: 25,
-    times: [
+    prayers: [
       { name: "imsak", time: "4:55" },
       { name: "fajr", time: "5:00" },
       { name: "sunrise", time: "6:33" },
@@ -3084,7 +3084,7 @@ var prayerTimes = [
     id: "237",
     month: 8,
     date: 26,
-    times: [
+    prayers: [
       { name: "imsak", time: "4:56" },
       { name: "fajr", time: "5:01" },
       { name: "sunrise", time: "6:34" },
@@ -3097,7 +3097,7 @@ var prayerTimes = [
     id: "238",
     month: 8,
     date: 27,
-    times: [
+    prayers: [
       { name: "imsak", time: "4:58" },
       { name: "fajr", time: "5:03" },
       { name: "sunrise", time: "6:35" },
@@ -3110,7 +3110,7 @@ var prayerTimes = [
     id: "239",
     month: 8,
     date: 28,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:00" },
       { name: "fajr", time: "5:05" },
       { name: "sunrise", time: "6:36" },
@@ -3123,7 +3123,7 @@ var prayerTimes = [
     id: "240",
     month: 8,
     date: 29,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:01" },
       { name: "fajr", time: "5:06" },
       { name: "sunrise", time: "6:37" },
@@ -3136,7 +3136,7 @@ var prayerTimes = [
     id: "241",
     month: 8,
     date: 30,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:02" },
       { name: "fajr", time: "5:07" },
       { name: "sunrise", time: "6:39" },
@@ -3149,7 +3149,7 @@ var prayerTimes = [
     id: "242",
     month: 8,
     date: 31,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:04" },
       { name: "fajr", time: "5:09" },
       { name: "sunrise", time: "6:40" },
@@ -3162,7 +3162,7 @@ var prayerTimes = [
     id: "243",
     month: 9,
     date: 1,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:05" },
       { name: "fajr", time: "5:10" },
       { name: "sunrise", time: "6:41" },
@@ -3175,7 +3175,7 @@ var prayerTimes = [
     id: "244",
     month: 9,
     date: 2,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:07" },
       { name: "fajr", time: "5:12" },
       { name: "sunrise", time: "6:42" },
@@ -3188,7 +3188,7 @@ var prayerTimes = [
     id: "245",
     month: 9,
     date: 3,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:08" },
       { name: "fajr", time: "5:13" },
       { name: "sunrise", time: "6:43" },
@@ -3201,7 +3201,7 @@ var prayerTimes = [
     id: "246",
     month: 9,
     date: 4,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:10" },
       { name: "fajr", time: "5:15" },
       { name: "sunrise", time: "6:44" },
@@ -3214,7 +3214,7 @@ var prayerTimes = [
     id: "247",
     month: 9,
     date: 5,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:11" },
       { name: "fajr", time: "5:16" },
       { name: "sunrise", time: "6:45" },
@@ -3227,7 +3227,7 @@ var prayerTimes = [
     id: "248",
     month: 9,
     date: 6,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:13" },
       { name: "fajr", time: "5:18" },
       { name: "sunrise", time: "6:46" },
@@ -3240,7 +3240,7 @@ var prayerTimes = [
     id: "249",
     month: 9,
     date: 7,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:14" },
       { name: "fajr", time: "5:19" },
       { name: "sunrise", time: "6:48" },
@@ -3253,7 +3253,7 @@ var prayerTimes = [
     id: "250",
     month: 9,
     date: 8,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:15" },
       { name: "fajr", time: "5:20" },
       { name: "sunrise", time: "6:49" },
@@ -3266,7 +3266,7 @@ var prayerTimes = [
     id: "251",
     month: 9,
     date: 9,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:17" },
       { name: "fajr", time: "5:22" },
       { name: "sunrise", time: "6:50" },
@@ -3279,7 +3279,7 @@ var prayerTimes = [
     id: "252",
     month: 9,
     date: 10,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:18" },
       { name: "fajr", time: "5:23" },
       { name: "sunrise", time: "6:51" },
@@ -3292,7 +3292,7 @@ var prayerTimes = [
     id: "253",
     month: 9,
     date: 11,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:20" },
       { name: "fajr", time: "5:25" },
       { name: "sunrise", time: "6:52" },
@@ -3305,7 +3305,7 @@ var prayerTimes = [
     id: "254",
     month: 9,
     date: 12,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:21" },
       { name: "fajr", time: "5:26" },
       { name: "sunrise", time: "6:53" },
@@ -3318,7 +3318,7 @@ var prayerTimes = [
     id: "255",
     month: 9,
     date: 13,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:22" },
       { name: "fajr", time: "5:27" },
       { name: "sunrise", time: "6:54" },
@@ -3331,7 +3331,7 @@ var prayerTimes = [
     id: "256",
     month: 9,
     date: 14,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:24" },
       { name: "fajr", time: "5:29" },
       { name: "sunrise", time: "6:55" },
@@ -3344,7 +3344,7 @@ var prayerTimes = [
     id: "257",
     month: 9,
     date: 15,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:25" },
       { name: "fajr", time: "5:30" },
       { name: "sunrise", time: "6:57" },
@@ -3357,7 +3357,7 @@ var prayerTimes = [
     id: "258",
     month: 9,
     date: 16,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:26" },
       { name: "fajr", time: "5:31" },
       { name: "sunrise", time: "6:58" },
@@ -3370,7 +3370,7 @@ var prayerTimes = [
     id: "259",
     month: 9,
     date: 17,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:28" },
       { name: "fajr", time: "5:33" },
       { name: "sunrise", time: "6:59" },
@@ -3383,7 +3383,7 @@ var prayerTimes = [
     id: "260",
     month: 9,
     date: 18,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:29" },
       { name: "fajr", time: "5:34" },
       { name: "sunrise", time: "7:00" },
@@ -3396,7 +3396,7 @@ var prayerTimes = [
     id: "261",
     month: 9,
     date: 19,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:30" },
       { name: "fajr", time: "5:35" },
       { name: "sunrise", time: "7:01" },
@@ -3409,7 +3409,7 @@ var prayerTimes = [
     id: "262",
     month: 9,
     date: 20,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:31" },
       { name: "fajr", time: "5:36" },
       { name: "sunrise", time: "7:02" },
@@ -3422,7 +3422,7 @@ var prayerTimes = [
     id: "263",
     month: 9,
     date: 21,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:33" },
       { name: "fajr", time: "5:38" },
       { name: "sunrise", time: "7:03" },
@@ -3435,7 +3435,7 @@ var prayerTimes = [
     id: "264",
     month: 9,
     date: 22,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:34" },
       { name: "fajr", time: "5:39" },
       { name: "sunrise", time: "7:05" },
@@ -3448,7 +3448,7 @@ var prayerTimes = [
     id: "265",
     month: 9,
     date: 23,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:35" },
       { name: "fajr", time: "5:40" },
       { name: "sunrise", time: "7:06" },
@@ -3461,7 +3461,7 @@ var prayerTimes = [
     id: "266",
     month: 9,
     date: 24,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:37" },
       { name: "fajr", time: "5:42" },
       { name: "sunrise", time: "7:07" },
@@ -3474,7 +3474,7 @@ var prayerTimes = [
     id: "267",
     month: 9,
     date: 25,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:38" },
       { name: "fajr", time: "5:43" },
       { name: "sunrise", time: "7:08" },
@@ -3487,7 +3487,7 @@ var prayerTimes = [
     id: "268",
     month: 9,
     date: 26,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:39" },
       { name: "fajr", time: "5:44" },
       { name: "sunrise", time: "7:09" },
@@ -3500,7 +3500,7 @@ var prayerTimes = [
     id: "269",
     month: 9,
     date: 27,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:40" },
       { name: "fajr", time: "5:45" },
       { name: "sunrise", time: "7:10" },
@@ -3513,7 +3513,7 @@ var prayerTimes = [
     id: "270",
     month: 9,
     date: 28,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:42" },
       { name: "fajr", time: "5:47" },
       { name: "sunrise", time: "7:11" },
@@ -3526,7 +3526,7 @@ var prayerTimes = [
     id: "271",
     month: 9,
     date: 29,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:43" },
       { name: "fajr", time: "5:48" },
       { name: "sunrise", time: "7:13" },
@@ -3539,7 +3539,7 @@ var prayerTimes = [
     id: "272",
     month: 9,
     date: 30,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:44" },
       { name: "fajr", time: "5:49" },
       { name: "sunrise", time: "7:14" },
@@ -3552,7 +3552,7 @@ var prayerTimes = [
     id: "273",
     month: 10,
     date: 1,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:45" },
       { name: "fajr", time: "5:50" },
       { name: "sunrise", time: "7:15" },
@@ -3565,7 +3565,7 @@ var prayerTimes = [
     id: "274",
     month: 10,
     date: 2,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:46" },
       { name: "fajr", time: "5:51" },
       { name: "sunrise", time: "7:16" },
@@ -3578,7 +3578,7 @@ var prayerTimes = [
     id: "275",
     month: 10,
     date: 3,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:48" },
       { name: "fajr", time: "5:53" },
       { name: "sunrise", time: "7:17" },
@@ -3591,7 +3591,7 @@ var prayerTimes = [
     id: "276",
     month: 10,
     date: 4,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:49" },
       { name: "fajr", time: "5:54" },
       { name: "sunrise", time: "7:19" },
@@ -3604,7 +3604,7 @@ var prayerTimes = [
     id: "277",
     month: 10,
     date: 5,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:50" },
       { name: "fajr", time: "5:55" },
       { name: "sunrise", time: "7:20" },
@@ -3617,7 +3617,7 @@ var prayerTimes = [
     id: "278",
     month: 10,
     date: 6,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:51" },
       { name: "fajr", time: "5:56" },
       { name: "sunrise", time: "7:21" },
@@ -3630,7 +3630,7 @@ var prayerTimes = [
     id: "279",
     month: 10,
     date: 7,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:53" },
       { name: "fajr", time: "5:58" },
       { name: "sunrise", time: "7:22" },
@@ -3643,7 +3643,7 @@ var prayerTimes = [
     id: "280",
     month: 10,
     date: 8,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:54" },
       { name: "fajr", time: "5:59" },
       { name: "sunrise", time: "7:23" },
@@ -3656,7 +3656,7 @@ var prayerTimes = [
     id: "281",
     month: 10,
     date: 9,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:55" },
       { name: "fajr", time: "6:00" },
       { name: "sunrise", time: "7:24" },
@@ -3669,7 +3669,7 @@ var prayerTimes = [
     id: "282",
     month: 10,
     date: 10,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:56" },
       { name: "fajr", time: "6:01" },
       { name: "sunrise", time: "7:26" },
@@ -3682,7 +3682,7 @@ var prayerTimes = [
     id: "283",
     month: 10,
     date: 11,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:57" },
       { name: "fajr", time: "6:02" },
       { name: "sunrise", time: "7:37" },
@@ -3695,7 +3695,7 @@ var prayerTimes = [
     id: "284",
     month: 10,
     date: 12,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:58" },
       { name: "fajr", time: "6:03" },
       { name: "sunrise", time: "7:28" },
@@ -3708,7 +3708,7 @@ var prayerTimes = [
     id: "285",
     month: 10,
     date: 13,
-    times: [
+    prayers: [
       { name: "imsak", time: "6:00" },
       { name: "fajr", time: "6:05" },
       { name: "sunrise", time: "7:29" },
@@ -3721,7 +3721,7 @@ var prayerTimes = [
     id: "286",
     month: 10,
     date: 14,
-    times: [
+    prayers: [
       { name: "imsak", time: "6:01" },
       { name: "fajr", time: "6:06" },
       { name: "sunrise", time: "7:31" },
@@ -3734,7 +3734,7 @@ var prayerTimes = [
     id: "287",
     month: 10,
     date: 15,
-    times: [
+    prayers: [
       { name: "imsak", time: "6:02" },
       { name: "fajr", time: "6:07" },
       { name: "sunrise", time: "7:32" },
@@ -3747,7 +3747,7 @@ var prayerTimes = [
     id: "288",
     month: 10,
     date: 16,
-    times: [
+    prayers: [
       { name: "imsak", time: "6:03" },
       { name: "fajr", time: "6:08" },
       { name: "sunrise", time: "7:33" },
@@ -3760,7 +3760,7 @@ var prayerTimes = [
     id: "289",
     month: 10,
     date: 17,
-    times: [
+    prayers: [
       { name: "imsak", time: "6:04" },
       { name: "fajr", time: "6:09" },
       { name: "sunrise", time: "7:34" },
@@ -3773,7 +3773,7 @@ var prayerTimes = [
     id: "290",
     month: 10,
     date: 18,
-    times: [
+    prayers: [
       { name: "imsak", time: "6:06" },
       { name: "fajr", time: "6:11" },
       { name: "sunrise", time: "7:36" },
@@ -3786,7 +3786,7 @@ var prayerTimes = [
     id: "291",
     month: 10,
     date: 19,
-    times: [
+    prayers: [
       { name: "imsak", time: "6:07" },
       { name: "fajr", time: "6:12" },
       { name: "sunrise", time: "7:37" },
@@ -3799,7 +3799,7 @@ var prayerTimes = [
     id: "292",
     month: 10,
     date: 20,
-    times: [
+    prayers: [
       { name: "imsak", time: "6:08" },
       { name: "fajr", time: "6:13" },
       { name: "sunrise", time: "7:38" },
@@ -3812,7 +3812,7 @@ var prayerTimes = [
     id: "293",
     month: 10,
     date: 21,
-    times: [
+    prayers: [
       { name: "imsak", time: "6:09" },
       { name: "fajr", time: "6:14" },
       { name: "sunrise", time: "7:39" },
@@ -3825,7 +3825,7 @@ var prayerTimes = [
     id: "294",
     month: 10,
     date: 22,
-    times: [
+    prayers: [
       { name: "imsak", time: "6:10" },
       { name: "fajr", time: "6:15" },
       { name: "sunrise", time: "7:41" },
@@ -3838,7 +3838,7 @@ var prayerTimes = [
     id: "295",
     month: 10,
     date: 23,
-    times: [
+    prayers: [
       { name: "imsak", time: "6:11" },
       { name: "fajr", time: "6:16" },
       { name: "sunrise", time: "7:42" },
@@ -3851,7 +3851,7 @@ var prayerTimes = [
     id: "296",
     month: 10,
     date: 24,
-    times: [
+    prayers: [
       { name: "imsak", time: "6:13" },
       { name: "fajr", time: "6:18" },
       { name: "sunrise", time: "7:43" },
@@ -3864,7 +3864,7 @@ var prayerTimes = [
     id: "297",
     month: 10,
     date: 25,
-    times: [
+    prayers: [
       { name: "imsak", time: "6:14" },
       { name: "fajr", time: "6:19" },
       { name: "sunrise", time: "7:44" },
@@ -3877,7 +3877,7 @@ var prayerTimes = [
     id: "298",
     month: 10,
     date: 26,
-    times: [
+    prayers: [
       { name: "imsak", time: "6:15" },
       { name: "fajr", time: "6:20" },
       { name: "sunrise", time: "7:46" },
@@ -3890,7 +3890,7 @@ var prayerTimes = [
     id: "299",
     month: 10,
     date: 27,
-    times: [
+    prayers: [
       { name: "imsak", time: "6:16" },
       { name: "fajr", time: "6:21" },
       { name: "sunrise", time: "7:47" },
@@ -3903,7 +3903,7 @@ var prayerTimes = [
     id: "300",
     month: 10,
     date: 28,
-    times: [
+    prayers: [
       { name: "imsak", time: "6:17" },
       { name: "fajr", time: "6:22" },
       { name: "sunrise", time: "7:48" },
@@ -3916,7 +3916,7 @@ var prayerTimes = [
     id: "301",
     month: 10,
     date: 29,
-    times: [
+    prayers: [
       { name: "imsak", time: "6:19" },
       { name: "fajr", time: "6:24" },
       { name: "sunrise", time: "7:50" },
@@ -3929,7 +3929,7 @@ var prayerTimes = [
     id: "302",
     month: 10,
     date: 30,
-    times: [
+    prayers: [
       { name: "imsak", time: "6:20" },
       { name: "fajr", time: "6:25" },
       { name: "sunrise", time: "7:51" },
@@ -3942,7 +3942,7 @@ var prayerTimes = [
     id: "303",
     month: 10,
     date: 31,
-    times: [
+    prayers: [
       { name: "imsak", time: "6:21" },
       { name: "fajr", time: "6:26" },
       { name: "sunrise", time: "7:52" },
@@ -3955,7 +3955,7 @@ var prayerTimes = [
     id: "304",
     month: 11,
     date: 1,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:22" },
       { name: "fajr", time: "5:27" },
       { name: "sunrise", time: "6:53" },
@@ -3968,7 +3968,7 @@ var prayerTimes = [
     id: "305",
     month: 11,
     date: 2,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:23" },
       { name: "fajr", time: "5:28" },
       { name: "sunrise", time: "6:55" },
@@ -3981,7 +3981,7 @@ var prayerTimes = [
     id: "306",
     month: 11,
     date: 3,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:24" },
       { name: "fajr", time: "5:29" },
       { name: "sunrise", time: "6:56" },
@@ -3994,7 +3994,7 @@ var prayerTimes = [
     id: "307",
     month: 11,
     date: 4,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:26" },
       { name: "fajr", time: "5:31" },
       { name: "sunrise", time: "6:57" },
@@ -4007,7 +4007,7 @@ var prayerTimes = [
     id: "308",
     month: 11,
     date: 5,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:27" },
       { name: "fajr", time: "5:32" },
       { name: "sunrise", time: "6:59" },
@@ -4020,7 +4020,7 @@ var prayerTimes = [
     id: "309",
     month: 11,
     date: 6,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:28" },
       { name: "fajr", time: "5:33" },
       { name: "sunrise", time: "7:00" },
@@ -4033,7 +4033,7 @@ var prayerTimes = [
     id: "310",
     month: 11,
     date: 7,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:29" },
       { name: "fajr", time: "5:34" },
       { name: "sunrise", time: "7:02" },
@@ -4046,7 +4046,7 @@ var prayerTimes = [
     id: "311",
     month: 11,
     date: 8,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:30" },
       { name: "fajr", time: "5:35" },
       { name: "sunrise", time: "7:03" },
@@ -4059,7 +4059,7 @@ var prayerTimes = [
     id: "312",
     month: 11,
     date: 9,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:32" },
       { name: "fajr", time: "5:37" },
       { name: "sunrise", time: "7:04" },
@@ -4072,7 +4072,7 @@ var prayerTimes = [
     id: "313",
     month: 11,
     date: 10,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:33" },
       { name: "fajr", time: "5:38" },
       { name: "sunrise", time: "7:06" },
@@ -4085,7 +4085,7 @@ var prayerTimes = [
     id: "314",
     month: 11,
     date: 11,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:34" },
       { name: "fajr", time: "5:39" },
       { name: "sunrise", time: "7:07" },
@@ -4098,7 +4098,7 @@ var prayerTimes = [
     id: "315",
     month: 11,
     date: 12,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:35" },
       { name: "fajr", time: "5:40" },
       { name: "sunrise", time: "7:08" },
@@ -4111,7 +4111,7 @@ var prayerTimes = [
     id: "316",
     month: 11,
     date: 13,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:36" },
       { name: "fajr", time: "5:41" },
       { name: "sunrise", time: "7:10" },
@@ -4124,7 +4124,7 @@ var prayerTimes = [
     id: "317",
     month: 11,
     date: 14,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:37" },
       { name: "fajr", time: "5:42" },
       { name: "sunrise", time: "7:11" },
@@ -4137,7 +4137,7 @@ var prayerTimes = [
     id: "318",
     month: 11,
     date: 15,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:38" },
       { name: "fajr", time: "5:43" },
       { name: "sunrise", time: "7:12" },
@@ -4150,7 +4150,7 @@ var prayerTimes = [
     id: "319",
     month: 11,
     date: 16,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:40" },
       { name: "fajr", time: "5:45" },
       { name: "sunrise", time: "7:14" },
@@ -4163,7 +4163,7 @@ var prayerTimes = [
     id: "320",
     month: 11,
     date: 17,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:41" },
       { name: "fajr", time: "5:46" },
       { name: "sunrise", time: "7:15" },
@@ -4176,7 +4176,7 @@ var prayerTimes = [
     id: "321",
     month: 11,
     date: 18,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:42" },
       { name: "fajr", time: "5:47" },
       { name: "sunrise", time: "7:16" },
@@ -4189,7 +4189,7 @@ var prayerTimes = [
     id: "322",
     month: 11,
     date: 19,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:43" },
       { name: "fajr", time: "5:48" },
       { name: "sunrise", time: "7:17" },
@@ -4202,7 +4202,7 @@ var prayerTimes = [
     id: "323",
     month: 11,
     date: 20,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:44" },
       { name: "fajr", time: "5:49" },
       { name: "sunrise", time: "7:19" },
@@ -4215,7 +4215,7 @@ var prayerTimes = [
     id: "324",
     month: 11,
     date: 21,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:45" },
       { name: "fajr", time: "5:50" },
       { name: "sunrise", time: "7:20" },
@@ -4228,7 +4228,7 @@ var prayerTimes = [
     id: "325",
     month: 11,
     date: 22,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:46" },
       { name: "fajr", time: "5:51" },
       { name: "sunrise", time: "7:21" },
@@ -4241,7 +4241,7 @@ var prayerTimes = [
     id: "326",
     month: 11,
     date: 23,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:47" },
       { name: "fajr", time: "5:52" },
       { name: "sunrise", time: "7:22" },
@@ -4254,7 +4254,7 @@ var prayerTimes = [
     id: "327",
     month: 11,
     date: 24,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:48" },
       { name: "fajr", time: "5:53" },
       { name: "sunrise", time: "7:22" },
@@ -4267,7 +4267,7 @@ var prayerTimes = [
     id: "328",
     month: 11,
     date: 25,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:49" },
       { name: "fajr", time: "5:54" },
       { name: "sunrise", time: "7:25" },
@@ -4280,7 +4280,7 @@ var prayerTimes = [
     id: "329",
     month: 11,
     date: 26,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:50" },
       { name: "fajr", time: "5:55" },
       { name: "sunrise", time: "7:26" },
@@ -4293,7 +4293,7 @@ var prayerTimes = [
     id: "330",
     month: 11,
     date: 27,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:51" },
       { name: "fajr", time: "5:56" },
       { name: "sunrise", time: "7:27" },
@@ -4306,7 +4306,7 @@ var prayerTimes = [
     id: "331",
     month: 11,
     date: 28,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:52" },
       { name: "fajr", time: "5:57" },
       { name: "sunrise", time: "7:28" },
@@ -4319,7 +4319,7 @@ var prayerTimes = [
     id: "332",
     month: 11,
     date: 29,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:53" },
       { name: "fajr", time: "5:58" },
       { name: "sunrise", time: "7:30" },
@@ -4332,7 +4332,7 @@ var prayerTimes = [
     id: "333",
     month: 11,
     date: 30,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:54" },
       { name: "fajr", time: "5:59" },
       { name: "sunrise", time: "7:31" },
@@ -4345,7 +4345,7 @@ var prayerTimes = [
     id: "334",
     month: 12,
     date: 1,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:55" },
       { name: "fajr", time: "6:00" },
       { name: "sunrise", time: "7:32" },
@@ -4358,7 +4358,7 @@ var prayerTimes = [
     id: "335",
     month: 12,
     date: 2,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:56" },
       { name: "fajr", time: "6:01" },
       { name: "sunrise", time: "7:33" },
@@ -4371,7 +4371,7 @@ var prayerTimes = [
     id: "336",
     month: 12,
     date: 3,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:57" },
       { name: "fajr", time: "6:02" },
       { name: "sunrise", time: "7:32" },
@@ -4384,7 +4384,7 @@ var prayerTimes = [
     id: "337",
     month: 12,
     date: 4,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:58" },
       { name: "fajr", time: "6:03" },
       { name: "sunrise", time: "7:35" },
@@ -4397,7 +4397,7 @@ var prayerTimes = [
     id: "338",
     month: 12,
     date: 5,
-    times: [
+    prayers: [
       { name: "imsak", time: "5:59" },
       { name: "fajr", time: "6:04" },
       { name: "sunrise", time: "7:36" },
@@ -4410,7 +4410,7 @@ var prayerTimes = [
     id: "339",
     month: 12,
     date: 6,
-    times: [
+    prayers: [
       { name: "imsak", time: "6:00" },
       { name: "fajr", time: "6:05" },
       { name: "sunrise", time: "7:37" },
@@ -4423,7 +4423,7 @@ var prayerTimes = [
     id: "340",
     month: 12,
     date: 7,
-    times: [
+    prayers: [
       { name: "imsak", time: "6:01" },
       { name: "fajr", time: "6:06" },
       { name: "sunrise", time: "7:38" },
@@ -4436,7 +4436,7 @@ var prayerTimes = [
     id: "341",
     month: 12,
     date: 8,
-    times: [
+    prayers: [
       { name: "imsak", time: "6:02" },
       { name: "fajr", time: "6:07" },
       { name: "sunrise", time: "7:39" },
@@ -4449,7 +4449,7 @@ var prayerTimes = [
     id: "342",
     month: 12,
     date: 9,
-    times: [
+    prayers: [
       { name: "imsak", time: "6:03" },
       { name: "fajr", time: "6:08" },
       { name: "sunrise", time: "7:40" },
@@ -4462,7 +4462,7 @@ var prayerTimes = [
     id: "343",
     month: 12,
     date: 10,
-    times: [
+    prayers: [
       { name: "imsak", time: "6:03" },
       { name: "fajr", time: "6:08" },
       { name: "sunrise", time: "7:41" },
@@ -4475,7 +4475,7 @@ var prayerTimes = [
     id: "344",
     month: 12,
     date: 11,
-    times: [
+    prayers: [
       { name: "imsak", time: "6:04" },
       { name: "fajr", time: "6:09" },
       { name: "sunrise", time: "7:42" },
@@ -4488,7 +4488,7 @@ var prayerTimes = [
     id: "345",
     month: 12,
     date: 12,
-    times: [
+    prayers: [
       { name: "imsak", time: "6:05" },
       { name: "fajr", time: "6:10" },
       { name: "sunrise", time: "7:43" },
@@ -4501,7 +4501,7 @@ var prayerTimes = [
     id: "346",
     month: 12,
     date: 13,
-    times: [
+    prayers: [
       { name: "imsak", time: "6:06" },
       { name: "fajr", time: "6:11" },
       { name: "sunrise", time: "7:44" },
@@ -4514,7 +4514,7 @@ var prayerTimes = [
     id: "347",
     month: 12,
     date: 14,
-    times: [
+    prayers: [
       { name: "imsak", time: "6:06" },
       { name: "fajr", time: "6:11" },
       { name: "sunrise", time: "7:44" },
@@ -4527,7 +4527,7 @@ var prayerTimes = [
     id: "348",
     month: 12,
     date: 15,
-    times: [
+    prayers: [
       { name: "imsak", time: "6:07" },
       { name: "fajr", time: "6:12" },
       { name: "sunrise", time: "7:45" },
@@ -4540,7 +4540,7 @@ var prayerTimes = [
     id: "349",
     month: 12,
     date: 16,
-    times: [
+    prayers: [
       { name: "imsak", time: "6:08" },
       { name: "fajr", time: "6:13" },
       { name: "sunrise", time: "7:46" },
@@ -4553,7 +4553,7 @@ var prayerTimes = [
     id: "350",
     month: 12,
     date: 17,
-    times: [
+    prayers: [
       { name: "imsak", time: "6:08" },
       { name: "fajr", time: "6:13" },
       { name: "sunrise", time: "7:46" },
@@ -4566,7 +4566,7 @@ var prayerTimes = [
     id: "351",
     month: 12,
     date: 18,
-    times: [
+    prayers: [
       { name: "imsak", time: "6:09" },
       { name: "fajr", time: "6:14" },
       { name: "sunrise", time: "7:47" },
@@ -4579,7 +4579,7 @@ var prayerTimes = [
     id: "352",
     month: 12,
     date: 19,
-    times: [
+    prayers: [
       { name: "imsak", time: "6:10" },
       { name: "fajr", time: "6:15" },
       { name: "sunrise", time: "7:48" },
@@ -4592,7 +4592,7 @@ var prayerTimes = [
     id: "353",
     month: 12,
     date: 20,
-    times: [
+    prayers: [
       { name: "imsak", time: "6:10" },
       { name: "fajr", time: "6:15" },
       { name: "sunrise", time: "7:48" },
@@ -4605,7 +4605,7 @@ var prayerTimes = [
     id: "354",
     month: 12,
     date: 21,
-    times: [
+    prayers: [
       { name: "imsak", time: "6:11" },
       { name: "fajr", time: "6:16" },
       { name: "sunrise", time: "7:49" },
@@ -4618,7 +4618,7 @@ var prayerTimes = [
     id: "355",
     month: 12,
     date: 22,
-    times: [
+    prayers: [
       { name: "imsak", time: "6:11" },
       { name: "fajr", time: "6:16" },
       { name: "sunrise", time: "7:49" },
@@ -4631,7 +4631,7 @@ var prayerTimes = [
     id: "356",
     month: 12,
     date: 23,
-    times: [
+    prayers: [
       { name: "imsak", time: "6:12" },
       { name: "fajr", time: "6:17" },
       { name: "sunrise", time: "7:50" },
@@ -4644,7 +4644,7 @@ var prayerTimes = [
     id: "357",
     month: 12,
     date: 24,
-    times: [
+    prayers: [
       { name: "imsak", time: "6:12" },
       { name: "fajr", time: "6:17" },
       { name: "sunrise", time: "7:50" },
@@ -4657,7 +4657,7 @@ var prayerTimes = [
     id: "358",
     month: 12,
     date: 25,
-    times: [
+    prayers: [
       { name: "imsak", time: "6:12" },
       { name: "fajr", time: "6:17" },
       { name: "sunrise", time: "7:51" },
@@ -4670,7 +4670,7 @@ var prayerTimes = [
     id: "359",
     month: 12,
     date: 26,
-    times: [
+    prayers: [
       { name: "imsak", time: "6:13" },
       { name: "fajr", time: "6:18" },
       { name: "sunrise", time: "7:51" },
@@ -4683,7 +4683,7 @@ var prayerTimes = [
     id: "360",
     month: 12,
     date: 27,
-    times: [
+    prayers: [
       { name: "imsak", time: "6:13" },
       { name: "fajr", time: "6:18" },
       { name: "sunrise", time: "7:51" },
@@ -4696,7 +4696,7 @@ var prayerTimes = [
     id: "361",
     month: 12,
     date: 28,
-    times: [
+    prayers: [
       { name: "imsak", time: "6:13" },
       { name: "fajr", time: "6:18" },
       { name: "sunrise", time: "7:51" },
@@ -4709,7 +4709,7 @@ var prayerTimes = [
     id: "362",
     month: 12,
     date: 29,
-    times: [
+    prayers: [
       { name: "imsak", time: "6:14" },
       { name: "fajr", time: "6:19" },
       { name: "sunrise", time: "7:52" },
@@ -4722,7 +4722,7 @@ var prayerTimes = [
     id: "363",
     month: 12,
     date: 30,
-    times: [
+    prayers: [
       { name: "imsak", time: "6:14" },
       { name: "fajr", time: "6:19" },
       { name: "sunrise", time: "7:52" },
@@ -4735,7 +4735,7 @@ var prayerTimes = [
     id: "364",
     month: 12,
     date: 31,
-    times: [
+    prayers: [
       { name: "imsak", time: "6:14" },
       { name: "fajr", time: "6:19" },
       { name: "sunrise", time: "7:52" },
@@ -4747,4 +4747,4 @@ var prayerTimes = [
 ];
 
 var today = moment().dayOfYear() - 1;
-var times = prayerTimes[today].times;
+var todaysPrayers = prayerTimes[today].prayers;

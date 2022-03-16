@@ -2,17 +2,17 @@
 layout: base.njk
 title: Prayer Times
 ---
-<div class="flex justify-center items-center h-screen bg-midnight flex-col" x-data="{items: times}">
+<div class="flex justify-center items-center h-screen bg-midnight flex-col" x-data>
     <table class="table-fixed">
         <tbody class="text-slate-50">
             <tr>
                 <th class="text-right p-1" scope="row" x-text="moment().format('iDo')"></th>
                 <td class="p-0.5" x-text="moment().format('iMMMM')"></td>
             </tr>
-            <template x-for="item in items" :key="item.name">
+            <template x-for="prayer in todaysPrayers" :key="prayer.name">
                 <tr>
-                    <th class="text-right p-1" scope="row" x-text="item.name"></th>
-                    <td class="p-1" x-text="item.time"></td>
+                    <th class="text-right p-1" scope="row" x-text="prayer.name"></th>
+                    <td class="p-1" x-text="prayer.time"></td>
                 </tr>
             </template>
         </tbody>
