@@ -3,9 +3,9 @@ layout: base.njk
 title: Prayer Times
 ---
 
-<div class="flex justify-center items-center h-screen bg-black" x-data="{items: times}">
+<div class="flex justify-center items-center h-screen bg-midnight" x-data="{items: times}">
     <table class="table-fixed">
-        <tbody class="text-white">
+        <tbody class="text-slate-50">
             <template x-for="item in items" :key="item.name">
                 <tr>
                     <th class="text-right p-3" scope="row" x-text="item.name"></th>
