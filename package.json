@@ -7,7 +7,7 @@
     "start": "eleventy --serve & npx tailwindcss -i src/css/tailwind.css -o public/style.css --watch",
     "build": " eleventy && yarn build:tailwind && yarn build:events",
     "build:tailwind": "tailwindcss -i src/css/tailwind.css -o public/style.css --minify",
-    "build:events": "node src/js/shia-holidays.js"
+    "build:events": "node src/js/calendar.js"
   },
   "keywords": [],
   "author": "",

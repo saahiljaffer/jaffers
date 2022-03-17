@@ -1,7 +1,7 @@
 const ics = require("ics");
 const { writeFileSync } = require("fs");
 const momentHijri = require("moment-hijri");
-const events = require("./shia-holidays.json");
+const events = require("./calendar.json");
 
 const years = ["1443", "1444"];
 let myEventsList = [];
@@ -33,5 +33,5 @@ ics.createEvents(myEventsList, (error, value) => {
     return;
   }
 
-  writeFileSync(`${__dirname}/../../public/shia-holidays.ics`, value);
+  writeFileSync(`${__dirname}/../../public/calendar.ics`, value);
 });
