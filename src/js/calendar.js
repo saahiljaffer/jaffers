@@ -20,7 +20,7 @@ for (let i = 0; i < years.length; i++) {
       return {
         start: [startDate.year(), startDate.month() + 1, startDate.date()],
         end: [endDate.year(), endDate.month() + 1, endDate.date()],
-        description: startDate.format("iDo iMMMM"),
+        description: startDate.format("iDo iMMMM iYYYY"),
         title: event.title,
         color: event.color,
       };
