@@ -16,10 +16,6 @@ module.exports = function (eleventyConfig) {
     "./node_modules/moment-hijri/moment-hijri.js": "./js/moment-hijri.js",
   });
 
-  eleventyConfig.addPassthroughCopy({
-    "./src/calendar.ics": "./calendar.ics",
-  });
-
   eleventyConfig.addShortcode("version", function () {
     return now;
   });
