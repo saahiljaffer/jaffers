@@ -16,6 +16,10 @@ module.exports = function (eleventyConfig) {
     "./node_modules/moment-hijri/moment-hijri.js": "./js/moment-hijri.js",
   });
 
+  eleventyConfig.addPassthroughCopy({
+    "./src/times.json": "./times.json",
+  });
+
   eleventyConfig.addShortcode("version", function () {
     return now;
   });
