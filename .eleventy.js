@@ -17,7 +17,7 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addPassthroughCopy({
-    "./src/calendar.ics": "./public/calendar.ics",
+    "./src/calendar.ics": "./calendar.ics",
   });
 
   eleventyConfig.addShortcode("version", function () {
