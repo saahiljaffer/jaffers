@@ -1,8 +1,9 @@
 [
-  { "title": "1st Muharram", "date": "1/1" },
+  { "title": "1st Muharram", "date": "1/1", "color":"11" },
   {
     "title": "Ashura",
-    "date": "1/10"
+    "date": "1/10",
+    "color":"11"
   },
   {
     "title": "10th of Imam Husayn (a)",

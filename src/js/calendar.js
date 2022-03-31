@@ -22,6 +22,7 @@ for (let i = 0; i < years.length; i++) {
         end: [endDate.year(), endDate.month() + 1, endDate.date()],
         description: startDate.format("iDo iMMMM"),
         title: event.title,
+        color: event.color,
       };
     })
   );
