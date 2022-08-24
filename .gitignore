@@ -131,3 +131,6 @@ dist
 
 public/
 src/event.ics
+
+# Local Netlify folder
+.netlify
