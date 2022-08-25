@@ -3,7 +3,7 @@ const { writeFileSync } = require("fs");
 const momentHijri = require("moment-hijri");
 const events = require("./calendar.json");
 
-const years = ["1443", "1444"];
+const years = ["1444", "1445"];
 let myEventsList = [];
 
 for (let i = 0; i < years.length; i++) {
