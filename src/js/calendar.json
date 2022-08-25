@@ -122,9 +122,10 @@
   },
   {
     "title": "Wafat of Bibi Zaynab (a)",
-    "date": "7/15"
+    "date": "7/15",
+    "color": "11"
   },
-  { "title": "Birthday", "date": "7/16" },
+  { "title": "Birthday", "date": "7/16", "color": "10" },
   {
     "title": "Shahadat of Imam Musa al-Kadhim (a)",
     "date": "7/25",
