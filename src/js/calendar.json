@@ -17,7 +17,8 @@
   },
   {
     "title": "20th of Imam Husayn (a)",
-    "date": "1/29",
+    "date": "1/30",
+    "fallbackDate": "1/29",
     "color": "11"
   },
   {
