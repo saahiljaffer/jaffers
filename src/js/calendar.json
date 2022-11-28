@@ -18,7 +18,7 @@
   {
     "title": "20th of Imam Husayn (a)",
     "date": "1/30",
-    "fallbackDate": "1/29",
+    "fallbackDate": "2/1",
     "color": "11"
   },
   {
@@ -126,7 +126,6 @@
     "date": "7/15",
     "color": "11"
   },
-  { "title": "Birthday", "date": "7/16", "color": "10" },
   {
     "title": "Shahadat of Imam Musa al-Kadhim (a)",
     "date": "7/25",

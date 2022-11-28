@@ -6,6 +6,8 @@ const events = require("./calendar.json");
 const years = ["1444", "1445", "1446"];
 let myEventsList = [];
 
+momentHijri.locale('en-US')
+
 for (let i = 0; i < years.length; i++) {
   myEventsList = myEventsList.concat(
     events.map((event) => {
@@ -22,7 +24,6 @@ for (let i = 0; i < years.length; i++) {
         end: [endDate.year(), endDate.month() + 1, endDate.date()],
         description: startDate.format("iDo iMMMM iYYYY"),
         title: event.title,
-        color: event.color,
       };
     })
   );
