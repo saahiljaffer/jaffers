@@ -16,7 +16,8 @@
     "@11ty/eleventy": "^1.0.0",
     "alpinejs": "^3.9.1",
     "ics": "^2.41.0",
-    "moment-hijri": "github:isijoftoronto/moment-hijri",
+    "moment-hijri": "github:saahiljaffer/moment-hijri",
     "tailwindcss": "^3.0.23"
   }
 }
+// 2
