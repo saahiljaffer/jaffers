@@ -2,21 +2,32 @@
 layout: base.njk
 title: Prayer Times
 ---
-<div class="flex justify-center items-center h-screen bg-midnight flex-col" x-data="{
+
+<div
+  class="flex justify-center items-center h-screen bg-midnight flex-col"
+  x-data="{
     query: new URLSearchParams(location.search).get('city') == 'waterloo' ? 4 : 0
-  }">
-    <table class="table-fixed">
-        <tbody class="text-slate-50">
-            <tr>
-                <th class="text-right p-1" scope="row" x-text="moment().format('iDo')"></th>
-                <td class="p-0.5" x-text="moment().locale('en').format('iMMM')"></td>
-            </tr>
-            <template x-for="prayer in todaysPrayers" :key="prayer.name">
-                <tr>
-                    <th class="text-right p-1" scope="row" x-text="prayer.name"></th>
-                    <td class="p-1" x-text="moment(prayer.time, 'h:mm').add(query, 'minutes').format('h:mm')"></td>
-                </tr>
-            </template>
-        </tbody>
-    </table>
+  }"
+>
+  <table class="table-fixed">
+    <tbody class="text-slate-50">
+      <tr>
+        <th
+          class="text-right p-1"
+          scope="row"
+          x-text="moment().locale('en').format('iDo')"
+        ></th>
+        <td class="p-0.5" x-text="moment().locale('en').format('iMMMM')"></td>
+      </tr>
+      <template x-for="prayer in todaysPrayers" :key="prayer.name">
+        <tr>
+          <th class="text-right p-1" scope="row" x-text="prayer.name"></th>
+          <td
+            class="p-1"
+            x-text="moment(prayer.time, 'h:mm').add(query, 'minutes').format('h:mm')"
+          ></td>
+        </tr>
+      </template>
+    </tbody>
+  </table>
 </div>
