@@ -3,7 +3,8 @@
   {
     "title": "Ashura",
     "date": "1/10",
-    "color": "11"
+    "color": "11",
+    "busyStatus": "BUSY"
   },
   {
     "title": "10th of Imam Husayn (a)",
@@ -34,7 +35,8 @@
   {
     "title": "40th of Imam Husayn (a) (Chehlum/Arbain)",
     "date": "2/20",
-    "color": "11"
+    "color": "11",
+    "busyStatus": "BUSY"
   },
   {
     "title": "Wafat of Prophet Muhammad (s)",
@@ -190,7 +192,8 @@
   {
     "title": "Eid al-Fitr",
     "date": "10/1",
-    "color": "10"
+    "color": "10",
+    "busyStatus": "BUSY"
   },
   {
     "title": "Shahadat of Imam Jafar as-Sadiq",
@@ -221,7 +224,8 @@
   {
     "title": "Eid al-Adha",
     "date": "12/10",
-    "color": "10"
+    "color": "10",
+    "busyStatus": "BUSY"
   },
   {
     "title": "Wiladat of Imam Ali an-Naqi (a)",
