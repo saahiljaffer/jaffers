@@ -18,5 +18,8 @@
     "ics": "^2.41.0",
     "moment-hijri": "github:saahiljaffer/moment-hijri",
     "tailwindcss": "^3.0.23"
+  },
+  "dependencies": {
+    "yarn": "^1.22.21"
   }
 }
