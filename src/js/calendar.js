@@ -24,7 +24,7 @@ for (let i = 0; i < years.length; i++) {
         end: [endDate.year(), endDate.month() + 1, endDate.date()],
         description: startDate.format("iDo iMMMM iYYYY"),
         title: event.title,
-        busyStatus: event.busyStatus ?? "FREE",
+        transp: event.busyStatus === "BUSY" ? "OPAQUE" : "TRANSPARENT",
       };
     })
   );

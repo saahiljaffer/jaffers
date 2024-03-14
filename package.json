@@ -15,7 +15,7 @@
   "devDependencies": {
     "@11ty/eleventy": "^1.0.0",
     "alpinejs": "^3.9.1",
-    "ics": "^2.41.0",
+    "ics": "^3.7.2",
     "moment-hijri": "github:saahiljaffer/moment-hijri",
     "tailwindcss": "^3.0.23"
   }
