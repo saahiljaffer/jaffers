@@ -13,7 +13,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.0",
+    "@11ty/eleventy": "^2.0.0",
     "alpinejs": "^3.9.1",
     "ics": "^3.7.2",
     "moment-hijri": "github:saahiljaffer/moment-hijri",
