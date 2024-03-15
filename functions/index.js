@@ -3,8 +3,10 @@ const moment = require("moment");
 const momentTimezone = require("moment-timezone");
 const momentHijri = require("moment-hijri");
 const momentHijriTimezone = require("hijri-moment-timezone");
+const { initializeApp } = require("firebase-admin/app");
 const { getFirestore } = require("firebase-admin/firestore");
 
+initializeApp();
 exports.times = functions
   .region("us-east1")
   .https.onRequest(async (req, res) => {
