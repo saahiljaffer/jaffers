@@ -10,5 +10,17 @@
         "firebase-debug.*.log"
       ]
     }
-  ]
+  ],
+  "hosting": {
+    "public": "public",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [
+      {
+        "source": "/times",
+        "function": {
+          "functionId": "times"
+        }
+      }
+    ]
+  }
 }
