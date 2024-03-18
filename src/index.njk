@@ -3,12 +3,14 @@ layout: base.njk
 title: Prayer Times
 ---
 
-<div
-  class="flex justify-center items-center h-screen bg-midnight flex-col"
-  x-data="{
-    query: new URLSearchParams(location.search).get('city') == 'waterloo' ? 4 : 0
-  }"
->
+<script>
+  fetch("https://jaffers.ca/times")
+    .then((response) => response.json())
+    .then((data) => console.log(data))
+    .catch((error) => console.error("Error:", error));
+</script>
+
+<div class="flex justify-center items-center h-screen bg-midnight flex-col">
   <table class="table-fixed">
     <tbody class="text-slate-50">
       <tr>

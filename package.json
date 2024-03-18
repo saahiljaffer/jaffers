@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "eleventy --serve & npx tailwindcss -i src/css/tailwind.css -o public/style.css --watch",
-    "build": " eleventy && yarn build:tailwind && yarn build:events",
+    "build": " eleventy && npm run build:tailwind && npm run build:events",
     "build:tailwind": "tailwindcss -i src/css/tailwind.css -o public/style.css --minify",
     "build:events": "node src/js/calendar.js"
   },
