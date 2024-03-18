@@ -14,7 +14,7 @@ title: Prayer Times
 <div
   class="flex justify-center items-center h-screen bg-midnight flex-col"
   x-data="alpineInstance()"
-  x-init="fetch('http://localhost:5001/prayers-be161/us-central1/times')
+  x-init="fetch('/times')
                       .then(response => response.json())
                       .then(data => today = data)"
 >
