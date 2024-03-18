@@ -4,32 +4,55 @@ title: Prayer Times
 ---
 
 <script>
-  fetch("https://jaffers.ca/times")
-    .then((response) => response.json())
-    .then((data) => console.log(data))
-    .catch((error) => console.error("Error:", error));
+  function alpineInstance() {
+    return {
+      today: {},
+    };
+  }
 </script>
 
-<div class="flex justify-center items-center h-screen bg-midnight flex-col">
-  <table class="table-fixed">
-    <tbody class="text-slate-50">
-      <tr>
-        <th
-          class="text-right p-1"
-          scope="row"
-          x-text="moment().locale('en').format('iDo')"
-        ></th>
-        <td class="p-0.5" x-text="moment().locale('en').format('iMMMM')"></td>
-      </tr>
-      <template x-for="prayer in todaysPrayers" :key="prayer.name">
-        <tr>
-          <th class="text-right p-1" scope="row" x-text="prayer.name"></th>
-          <td
-            class="p-1"
-            x-text="moment(prayer.time, 'h:mm').add(query, 'minutes').format('h:mm')"
-          ></td>
-        </tr>
-      </template>
-    </tbody>
-  </table>
+<div
+  class="flex justify-center items-center h-screen bg-midnight flex-col"
+  x-data="alpineInstance()"
+  x-init="fetch('http://localhost:5001/prayers-be161/us-central1/times')
+                      .then(response => response.json())
+                      .then(data => today = data)"
+>
+  <template x-if="today.prayers">
+    <div>
+      <div class="mb-2">
+        <span class="text-slate-50 font-semibold" x-text="today.day"></span>
+        <span class="text-slate-50 font-semibold" x-text="today.month"></span>
+        <span class="text-slate-50 font-semibold" x-text="today.year"></span>
+      </div>
+      <table class="table-fixed">
+        <tbody class="text-slate-50">
+          <tr>
+            <th class="text-right p-1" scope="row">imsak</th>
+            <td class="p-1" x-text="today.prayers?.imsak"></td>
+          </tr>
+          <tr>
+            <th class="text-right p-1" scope="row">fajr</th>
+            <td class="p-1" x-text="today.prayers?.fajr"></td>
+          </tr>
+          <tr>
+            <th class="text-right p-1" scope="row">sunrise</th>
+            <td class="p-1" x-text="today.prayers?.sunrise"></td>
+          </tr>
+          <tr>
+            <th class="text-right p-1" scope="row">dhuhr</th>
+            <td class="p-1" x-text="today.prayers?.dhuhr"></td>
+          </tr>
+          <tr>
+            <th class="text-right p-1" scope="row">sunset</th>
+            <td class="p-1" x-text="today.prayers?.sunset"></td>
+          </tr>
+          <tr>
+            <th class="text-right p-1" scope="row">maghrib</th>
+            <td class="p-1" x-text="today.prayers?.maghrib"></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </template>
 </div>

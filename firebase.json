@@ -1,4 +1,26 @@
 {
+  "hosting": {
+    "public": "public",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [
+      {
+        "source": "/times",
+        "function": "times"
+      }
+    ]
+  },
+  "emulators": {
+    "functions": {
+      "port": 5001
+    },
+    "hosting": {
+      "port": 5000
+    },
+    "ui": {
+      "enabled": true
+    },
+    "singleProjectMode": true
+  },
   "functions": [
     {
       "source": "functions",
@@ -11,29 +33,5 @@
       ],
       "predeploy": ["npm --prefix \"$RESOURCE_DIR\" run lint"]
     }
-  ],
-  "hosting": {
-    "public": "public",
-    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
-    "rewrites": [
-      {
-        "source": "/times",
-        "function": {
-          "functionId": "times"
-        }
-      }
-    ]
-  },
-  "emulators": {
-    "functions": {
-      "port": 5001
-    },
-    "hosting": {
-      "port": 5005
-    },
-    "ui": {
-      "enabled": false
-    },
-    "singleProjectMode": true
-  }
+  ]
 }
