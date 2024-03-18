@@ -1,30 +1,41 @@
-const functions = require("firebase-functions");
+/**
+ * Import function triggers from their respective submodules:
+ *
+ * const {onCall} = require("firebase-functions/v2/https");
+ * const {onDocumentWritten} = require("firebase-functions/v2/firestore");
+ *
+ * See a full list of supported triggers at https://firebase.google.com/docs/functions
+ */
 const moment = require("moment");
+// eslint-disable-next-line no-unused-vars
 const momentTimezone = require("moment-timezone");
 const momentHijri = require("moment-hijri");
+// eslint-disable-next-line no-unused-vars
 const momentHijriTimezone = require("hijri-moment-timezone");
-const { initializeApp } = require("firebase-admin/app");
+const { onRequest } = require("firebase-functions/v2/https");
 const { getFirestore } = require("firebase-admin/firestore");
+const { initializeApp } = require("firebase-admin");
 
-initializeApp();
-exports.times = functions
-  .region("us-east1")
-  .https.onRequest(async (req, res) => {
-    const db = getFirestore();
-    const today = moment().locale("en").tz("America/Toronto");
-    const doc = await db.collection("times").doc(today.format("MM-DD")).get();
-    const prayers = doc.data();
-    Object.keys(prayers).forEach((name) => {
-      prayers[name] = moment(prayers[name], "h:mm")
-        .locale("en")
-        .add(today.isDST(), "hours")
-        .format("h:mm");
-    });
-    const islamicDate = momentHijri().locale("en").tz("America/Toronto");
-    res.json({
-      prayers,
-      day: islamicDate.format("iDo"),
-      month: islamicDate.format("iMMMM"),
-      year: islamicDate.format("iYYYY"),
-    });
+// Create and deploy your first functions
+// https://firebase.google.com/docs/functions/get-started
+
+exports.times = onRequest(async (request, response) => {
+  initializeApp();
+  const db = getFirestore();
+  const today = moment().locale("en").tz("America/Toronto");
+  const doc = await db.collection("times").doc(today.format("MM-DD")).get();
+  const prayers = doc.data();
+  Object.keys(prayers).forEach((name) => {
+    prayers[name] = moment(prayers[name], "h:mm")
+      .locale("en")
+      .add(today.isDST(), "hours")
+      .format("h:mm");
   });
+  const islamicDate = momentHijri().locale("en").tz("America/Toronto");
+  response.json({
+    prayers,
+    day: islamicDate.format("iDo"),
+    month: islamicDate.format("iMMMM"),
+    year: islamicDate.format("iYYYY"),
+  });
+});
