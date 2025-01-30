@@ -17,6 +17,6 @@
     "alpinejs": "^3.9.1",
     "ics": "^3.7.2",
     "moment-hijri": "github:saahiljaffer/moment-hijri",
-    "tailwindcss": "^3.0.23"
+    "tailwindcss": "^4.0.0"
   }
 }
