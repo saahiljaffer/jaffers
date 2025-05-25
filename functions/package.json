@@ -19,7 +19,7 @@
     "hijri-moment-timezone": "github:phalmeida/hijri-moment-timezone",
     "moment": "^2.29.4",
     "moment-hijri": "https://github.com/saahiljaffer/moment-hijri",
-    "moment-timezone": "^0.5.37"
+    "moment-timezone": "^0.6.0"
   },
   "devDependencies": {
     "eslint": "^8.15.0",
